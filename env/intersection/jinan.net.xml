@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-29 16:53:13 by Eclipse SUMO netedit Version 1.21.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Projects_\4_22\env\intersection\jinan.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Projects_\4_22\env\intersection\jinan.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-506017.67,-4058472.21" convBoundary="405.38,301.69,2673.01,3535.70" origBoundary="117.009186,36.645060,117.208554,36.733701" projParameter="+proj=utm +zone=50 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <type id="highway.secondary" priority="11" numLanes="1" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0"/>
+    <type id="highway.tertiary" priority="10" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" oneway="0"/>
+
+    <edge id="road_0_1_0" from="intersection_0_1" to="intersection_1_1" priority="11" type="highway.secondary" shape="792.04,2788.08 823.08,2718.11 842.68,2673.89 857.05,2633.96 866.66,2602.72 873.68,2571.09 876.74,2550.28 887.65,2476.22">
+        <lane id="road_0_1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="784.73,2784.84 815.77,2714.87 835.25,2670.91 849.46,2631.43 858.92,2600.67 865.81,2569.64 868.83,2549.11 877.62,2489.42"/>
+        <lane id="road_0_1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="787.65,2786.13 818.69,2716.16 838.22,2672.10 852.50,2632.44 862.02,2601.49 868.96,2570.22 871.99,2549.58 880.78,2489.89"/>
+        <lane id="road_0_1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="790.58,2787.43 821.62,2717.46 841.19,2673.29 855.53,2633.45 865.11,2602.31 872.11,2570.80 875.16,2550.05 883.95,2490.36"/>
+    </edge>
+    <edge id="road_0_2_0" from="intersection_0_2" to="intersection_1_2" priority="10" type="highway.tertiary">
+        <lane id="road_0_2_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1701.78,2871.08 1717.80,2595.82"/>
+        <lane id="road_0_2_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1704.98,2871.26 1720.99,2596.01"/>
+        <lane id="road_0_2_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1708.17,2871.45 1724.18,2596.19"/>
+    </edge>
+    <edge id="road_0_3_0" from="intersection_0_3" to="intersection_1_3" priority="11" type="highway.secondary" shape="2191.61,3026.31 2211.36,3535.70 2198.33,3468.03 2196.60,3459.01 2187.20,3395.77 2183.27,3369.30 2177.39,3292.16 2175.70,3270.06 2195.99,2944.54 2196.58,2935.18 2200.20,2877.06 2212.02,2687.45 2214.31,2650.55">
+        <lane id="road_0_3_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2183.62,3025.88 2188.00,2944.10 2188.60,2934.68 2192.22,2876.56 2204.04,2686.95 2205.50,2663.39"/>
+        <lane id="road_0_3_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2186.82,3026.05 2191.20,2944.28 2191.79,2934.88 2195.41,2876.76 2207.23,2687.15 2208.69,2663.59"/>
+        <lane id="road_0_3_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2190.01,3026.22 2194.39,2944.45 2194.98,2935.08 2198.60,2876.96 2210.42,2687.35 2211.89,2663.79"/>
+    </edge>
+    <edge id="road_1_0_1" from="intersection_1_0" to="intersection_1_1" priority="10" type="highway.tertiary" shape="405.38,2293.28 529.19,2336.88 584.86,2375.27 628.65,2405.47 642.11,2412.29 688.02,2435.51 694.75,2438.92 709.12,2443.70 752.24,2458.06 806.73,2468.07 835.61,2473.39 887.65,2476.22">
+        <lane id="road_1_0_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="408.04,2285.73 532.85,2329.69 589.40,2368.68 632.75,2398.58 645.72,2405.15 691.63,2428.37 697.84,2431.52 711.65,2436.11 754.24,2450.29 808.18,2460.20 836.56,2465.43 873.58,2467.44"/>
+        <lane id="road_1_0_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="406.97,2288.75 531.39,2332.57 587.59,2371.32 631.11,2401.33 644.28,2408.01 690.19,2431.23 696.60,2434.48 710.64,2439.15 753.44,2453.40 807.60,2463.35 836.18,2468.61 873.41,2470.64"/>
+        <lane id="road_1_0_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="405.91,2291.77 529.92,2335.44 585.77,2373.95 629.47,2404.09 642.83,2410.86 688.74,2434.08 695.37,2437.44 709.63,2442.18 752.64,2456.51 807.02,2466.50 835.80,2471.80 873.23,2473.83"/>
+    </edge>
+    <edge id="road_1_1_0" from="intersection_1_1" to="intersection_2_1" priority="11" type="highway.secondary" shape="887.65,2476.22 943.19,2084.04 949.56,2039.15 955.39,1997.59 960.34,1962.09 978.88,1829.52">
+        <lane id="road_1_1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="881.65,2461.54 935.27,2082.92 941.64,2038.03 947.47,1996.48 952.42,1960.98 970.63,1830.78"/>
+        <lane id="road_1_1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="884.82,2461.98 938.44,2083.37 944.81,2038.48 950.64,1996.92 955.59,1961.43 973.79,1831.23"/>
+        <lane id="road_1_1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="887.99,2462.43 941.61,2083.82 947.98,2038.93 953.81,1997.37 958.76,1961.87 976.96,1831.67"/>
+    </edge>
+    <edge id="road_1_1_1" from="intersection_1_1" to="intersection_1_2" priority="10" type="highway.tertiary" shape="887.65,2476.22 947.69,2484.10 967.24,2486.66 1109.44,2505.31 1225.39,2520.52 1256.76,2524.64 1268.00,2525.95 1335.73,2533.81 1463.55,2549.59 1571.31,2561.70 1620.79,2568.13 1654.18,2572.46 1726.62,2581.87">
+        <lane id="road_1_1_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="902.27,2470.07 948.73,2476.17 968.28,2478.73 1110.48,2497.38 1226.43,2512.59 1257.74,2516.70 1268.92,2518.00 1336.68,2525.87 1464.49,2541.64 1572.27,2553.76 1621.82,2560.20 1655.21,2564.53 1712.63,2571.99"/>
+        <lane id="road_1_1_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="901.86,2473.24 948.31,2479.34 967.86,2481.90 1110.06,2500.55 1226.01,2515.76 1257.35,2519.88 1268.55,2521.18 1336.30,2529.04 1464.11,2544.82 1571.89,2556.93 1621.41,2563.37 1654.80,2567.70 1712.22,2575.16"/>
+        <lane id="road_1_1_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="901.44,2476.42 947.90,2482.51 967.45,2485.07 1109.65,2503.72 1225.60,2518.93 1256.96,2523.05 1268.18,2524.36 1335.92,2532.22 1463.74,2548.00 1571.50,2560.11 1621.00,2566.54 1654.39,2570.87 1711.81,2578.33"/>
+    </edge>
+    <edge id="road_1_1_2" from="intersection_1_1" to="intersection_0_1" priority="11" type="highway.secondary" shape="887.65,2476.22 876.74,2550.28 873.68,2571.09 866.66,2602.72 857.05,2633.96 842.68,2673.89 823.08,2718.11 792.04,2788.08">
+        <lane id="road_1_1_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="893.45,2491.76 884.65,2551.45 881.55,2572.54 874.40,2604.77 864.64,2636.49 850.11,2676.87 830.39,2721.35 799.35,2791.32"/>
+        <lane id="road_1_1_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="890.28,2491.29 881.49,2550.98 878.40,2571.96 871.30,2603.95 861.60,2635.48 847.14,2675.68 827.47,2720.06 796.43,2790.03"/>
+        <lane id="road_1_1_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="328.33" shape="887.12,2490.82 878.32,2550.51 875.25,2571.38 868.21,2603.13 858.57,2634.47 844.17,2674.49 824.54,2718.76 793.50,2788.73"/>
+    </edge>
+    <edge id="road_1_1_3" from="intersection_1_1" to="intersection_1_0" priority="10" type="highway.tertiary" shape="887.65,2476.22 835.61,2473.39 806.73,2468.07 752.24,2458.06 709.12,2443.70 694.75,2438.92 688.02,2435.51 642.11,2412.29 628.65,2405.47 584.86,2375.27 529.19,2336.88 405.38,2293.28">
+        <lane id="road_1_1_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="872.71,2483.42 834.66,2481.35 805.28,2475.94 750.24,2465.83 706.59,2451.29 691.66,2446.32 684.41,2442.65 638.50,2419.43 624.55,2412.36 580.32,2381.86 525.53,2344.07 402.72,2300.83"/>
+        <lane id="road_1_1_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="872.89,2480.22 835.04,2478.17 805.86,2472.79 751.04,2462.72 707.60,2448.25 692.90,2443.36 685.85,2439.79 639.94,2416.57 626.19,2409.61 582.13,2379.22 526.99,2341.19 403.79,2297.81"/>
+        <lane id="road_1_1_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.64" shape="873.06,2477.03 835.42,2474.98 806.44,2469.64 751.84,2459.61 708.61,2445.22 694.13,2440.40 687.30,2436.94 641.39,2413.72 627.83,2406.85 583.95,2376.59 528.46,2338.32 404.85,2294.79"/>
+    </edge>
+    <edge id="road_1_2_0" from="intersection_1_2" to="intersection_2_2" priority="10" type="highway.tertiary" shape="1726.62,2581.87 1726.38,2569.58 1722.63,2512.40 1718.22,2444.89 1717.87,2439.55 1712.65,2332.90 1712.53,2330.47 1708.93,2256.83 1702.40,2170.96 1698.65,2121.71 1695.52,2080.44 1693.36,2052.17 1685.96,1954.86">
+        <lane id="road_1_2_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1718.19,2566.89 1714.65,2512.92 1710.24,2445.41 1709.88,2440.01 1704.66,2333.29 1704.54,2330.86 1700.94,2257.33 1694.42,2171.57 1690.67,2122.32 1687.54,2081.05 1685.38,2052.78 1678.52,1962.47"/>
+        <lane id="road_1_2_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1721.39,2566.83 1717.84,2512.71 1713.43,2445.20 1713.08,2439.82 1707.86,2333.13 1707.74,2330.70 1704.14,2257.13 1697.61,2171.32 1693.86,2122.07 1690.73,2080.80 1688.57,2052.53 1681.71,1962.22"/>
+        <lane id="road_1_2_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1724.59,2566.76 1721.03,2512.50 1716.62,2444.99 1716.27,2439.64 1711.05,2332.98 1710.93,2330.55 1707.33,2256.93 1700.80,2171.08 1697.05,2121.83 1693.92,2080.56 1691.76,2052.29 1684.90,1961.98"/>
+    </edge>
+    <edge id="road_1_2_1" from="intersection_1_2" to="intersection_1_3" priority="10" type="highway.tertiary" shape="1726.62,2581.87 1949.56,2613.68 1950.03,2613.73 2054.36,2628.27 2070.25,2630.48 2214.31,2650.55">
+        <lane id="road_1_2_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="1742.04,2575.99 1950.69,2605.76 1951.01,2605.79 2055.46,2620.35 2071.35,2622.56 2198.87,2640.32"/>
+        <lane id="road_1_2_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="1741.59,2579.16 1950.24,2608.93 1950.62,2608.97 2055.02,2623.52 2070.91,2625.73 2198.43,2643.49"/>
+        <lane id="road_1_2_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="1741.14,2582.33 1949.79,2612.10 1950.23,2612.14 2054.58,2626.69 2070.47,2628.90 2197.99,2646.66"/>
+    </edge>
+    <edge id="road_1_2_2" from="intersection_1_2" to="intersection_0_2" priority="10" type="highway.tertiary">
+        <lane id="road_1_2_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1733.77,2596.75 1717.76,2872.00"/>
+        <lane id="road_1_2_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1730.57,2596.56 1714.56,2871.82"/>
+        <lane id="road_1_2_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="290.16" shape="1727.38,2596.38 1711.37,2871.63"/>
+    </edge>
+    <edge id="road_1_2_3" from="intersection_1_2" to="intersection_1_1" priority="10" type="highway.tertiary" shape="1726.62,2581.87 1654.18,2572.46 1620.79,2568.13 1571.31,2561.70 1463.55,2549.59 1335.73,2533.81 1268.00,2525.95 1256.76,2524.64 1225.39,2520.52 1109.44,2505.31 967.24,2486.66 947.69,2484.10 887.65,2476.22">
+        <lane id="road_1_2_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="1710.57,2587.85 1653.15,2580.39 1619.76,2576.06 1570.35,2569.64 1462.61,2557.54 1334.78,2541.75 1267.08,2533.90 1255.78,2532.58 1224.35,2528.45 1108.40,2513.24 966.20,2494.59 946.65,2492.03 900.19,2485.93"/>
+        <lane id="road_1_2_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="1710.98,2584.68 1653.56,2577.22 1620.17,2572.89 1570.73,2566.47 1462.99,2554.36 1335.16,2538.58 1267.45,2530.72 1256.17,2529.40 1224.77,2525.28 1108.82,2510.07 966.62,2491.42 947.07,2488.86 900.61,2482.76"/>
+        <lane id="road_1_2_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="845.62" shape="1711.39,2581.51 1653.97,2574.05 1620.58,2569.72 1571.12,2563.29 1463.36,2551.18 1335.54,2535.40 1267.82,2527.54 1256.56,2526.23 1225.18,2522.11 1109.23,2506.90 967.03,2488.25 947.48,2485.69 901.02,2479.59"/>
+    </edge>
+    <edge id="road_1_3_0" from="intersection_1_3" to="intersection_2_3" priority="-1" shape="2214.31,2650.55 2149.63,2183.97 2121.06,2114.44 2084.16,2034.37">
+        <lane id="road_1_3_0_0" index="0" speed="13.89" length="634.38" shape="2204.09,2635.11 2141.84,2186.07 2113.72,2117.64 2086.23,2057.98"/>
+        <lane id="road_1_3_0_1" index="1" speed="13.89" length="634.38" shape="2207.26,2634.67 2144.96,2185.23 2116.66,2116.36 2089.14,2056.64"/>
+        <lane id="road_1_3_0_2" index="2" speed="13.89" length="634.38" shape="2210.43,2634.23 2148.07,2184.39 2119.59,2115.08 2092.05,2055.31"/>
+    </edge>
+    <edge id="road_1_3_1" from="intersection_1_3" to="intersection_1_4" priority="-1">
+        <lane id="road_1_3_1_0" index="0" speed="13.89" length="262.39" shape="2227.95,2643.05 2476.81,2652.18"/>
+        <lane id="road_1_3_1_1" index="1" speed="13.89" length="262.39" shape="2227.84,2646.24 2476.70,2655.37"/>
+        <lane id="road_1_3_1_2" index="2" speed="13.89" length="262.39" shape="2227.72,2649.44 2476.58,2658.57"/>
+    </edge>
+    <edge id="road_1_3_2" from="intersection_1_3" to="intersection_0_3" priority="11" type="highway.secondary" shape="2214.31,2650.55 2212.02,2687.45 2200.20,2877.06 2196.58,2935.18 2195.99,2944.54 2175.70,3270.06 2177.39,3292.16 2183.27,3369.30 2187.20,3395.77 2196.60,3459.01 2198.33,3468.03 2211.36,3535.70 2191.61,3026.31">
+        <lane id="road_1_3_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2221.47,2664.38 2220.00,2687.95 2208.18,2877.56 2204.56,2935.68 2203.98,2945.01 2199.60,3026.74"/>
+        <lane id="road_1_3_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2218.27,2664.18 2216.81,2687.75 2204.99,2877.36 2201.37,2935.48 2200.78,2944.82 2196.40,3026.57"/>
+        <lane id="road_1_3_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="377.17" shape="2215.08,2663.98 2213.62,2687.55 2201.80,2877.16 2198.18,2935.28 2197.59,2944.63 2193.21,3026.40"/>
+    </edge>
+    <edge id="road_1_3_3" from="intersection_1_3" to="intersection_1_2" priority="10" type="highway.tertiary" shape="2214.31,2650.55 2070.25,2630.48 2054.36,2628.27 1950.03,2613.73 1949.56,2613.68 1726.62,2581.87">
+        <lane id="road_1_3_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="2196.67,2656.17 2069.15,2638.40 2053.26,2636.19 1948.93,2621.65 1948.57,2621.62 1739.78,2591.83"/>
+        <lane id="road_1_3_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="2197.11,2653.00 2069.59,2635.23 2053.70,2633.02 1949.37,2618.48 1948.97,2618.44 1740.24,2588.66"/>
+        <lane id="road_1_3_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="492.50" shape="2197.55,2649.83 2070.03,2632.06 2054.14,2629.85 1949.81,2615.31 1949.36,2615.27 1740.69,2585.49"/>
+    </edge>
+    <edge id="road_1_4_3" from="intersection_1_4" to="intersection_1_3" priority="-1">
+        <lane id="road_1_4_3_0" index="0" speed="13.89" length="262.39" shape="2476.23,2668.16 2227.37,2659.03"/>
+        <lane id="road_1_4_3_1" index="1" speed="13.89" length="262.39" shape="2476.34,2664.97 2227.49,2655.84"/>
+        <lane id="road_1_4_3_2" index="2" speed="13.89" length="262.39" shape="2476.46,2661.77 2227.60,2652.64"/>
+    </edge>
+    <edge id="road_2_0_1" from="intersection_2_0" to="intersection_2_1" priority="-1" shape="481.39,1650.53 627.66,1706.04 718.42,1740.80 880.88,1792.02 914.41,1802.59 981.14,1818.19">
+        <lane id="road_2_0_1_0" index="0" speed="13.89" length="527.67" shape="484.23,1643.05 630.51,1698.56 721.06,1733.24 883.29,1784.39 916.53,1794.87 969.40,1807.23"/>
+        <lane id="road_2_0_1_1" index="1" speed="13.89" length="527.67" shape="483.09,1646.04 629.37,1701.55 720.00,1736.27 882.32,1787.44 915.68,1797.96 968.67,1810.34"/>
+        <lane id="road_2_0_1_2" index="2" speed="13.89" length="527.67" shape="481.96,1649.03 628.23,1704.54 718.95,1739.29 881.36,1790.49 914.83,1801.05 967.94,1813.46"/>
+    </edge>
+    <edge id="road_2_1_0" from="intersection_2_1" to="intersection_3_1" priority="11" type="highway.secondary" shape="983.40,1806.85 1031.61,1571.31 1041.66,1522.22 1046.11,1500.47 1059.83,1433.42 1069.16,1387.84">
+        <lane id="road_2_1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="976.03,1802.98 1023.77,1569.71 1033.82,1520.62 1038.27,1498.87 1051.99,1431.82 1058.42,1400.40"/>
+        <lane id="road_2_1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="979.16,1803.63 1026.91,1570.35 1036.96,1521.26 1041.41,1499.51 1055.13,1432.46 1061.56,1401.04"/>
+        <lane id="road_2_1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="982.30,1804.27 1030.04,1570.99 1040.09,1521.90 1044.54,1500.15 1058.26,1433.10 1064.69,1401.68"/>
+    </edge>
+    <edge id="road_2_1_1" from="intersection_2_1" to="intersection_2_2" priority="-1" shape="981.14,1818.19 1153.64,1848.70 1442.78,1904.60 1687.13,1945.93">
+        <lane id="road_2_1_1_0" index="0" speed="13.89" length="717.49" shape="996.12,1812.72 1155.10,1840.83 1444.21,1896.73 1674.64,1935.70"/>
+        <lane id="road_2_1_1_1" index="1" speed="13.89" length="717.49" shape="995.57,1815.87 1154.51,1843.98 1443.64,1899.88 1674.11,1938.86"/>
+        <lane id="road_2_1_1_2" index="2" speed="13.89" length="717.49" shape="995.01,1819.02 1153.93,1847.13 1443.07,1903.03 1673.57,1942.01"/>
+    </edge>
+    <edge id="road_2_1_2" from="intersection_2_1" to="intersection_1_1" priority="11" type="highway.secondary" shape="978.88,1829.52 960.34,1962.09 955.39,1997.59 949.56,2039.15 943.19,2084.04 887.65,2476.22">
+        <lane id="road_2_1_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="986.47,1833.00 968.26,1963.20 963.31,1998.70 957.48,2040.27 951.11,2085.16 897.49,2463.78"/>
+        <lane id="road_2_1_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="983.30,1832.56 965.09,1962.75 960.14,1998.26 954.31,2039.82 947.94,2084.71 894.32,2463.33"/>
+        <lane id="road_2_1_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="664.65" shape="980.13,1832.11 961.92,1962.31 956.97,1997.81 951.14,2039.37 944.77,2084.26 891.15,2462.88"/>
+    </edge>
+    <edge id="road_2_1_3" from="intersection_2_1" to="intersection_2_0" priority="-1" shape="981.14,1818.19 914.41,1802.59 880.88,1792.02 718.42,1740.80 627.66,1706.04 481.39,1650.53">
+        <lane id="road_2_1_3_0" index="0" speed="13.89" length="527.67" shape="965.75,1822.81 912.29,1810.31 878.47,1799.65 715.78,1748.36 624.81,1713.52 478.55,1658.01"/>
+        <lane id="road_2_1_3_1" index="1" speed="13.89" length="527.67" shape="966.48,1819.69 913.14,1807.22 879.44,1796.60 716.84,1745.33 625.95,1710.53 479.69,1655.02"/>
+        <lane id="road_2_1_3_2" index="2" speed="13.89" length="527.67" shape="967.21,1816.58 913.99,1804.13 880.40,1793.55 717.89,1742.31 627.09,1707.54 480.82,1652.03"/>
+    </edge>
+    <edge id="road_2_2_0" from="intersection_2_2" to="intersection_3_2" priority="10" type="highway.tertiary" shape="1688.30,1937.00 1733.47,1406.47">
+        <lane id="road_2_2_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1680.79,1930.94 1724.30,1419.90"/>
+        <lane id="road_2_2_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1683.98,1931.22 1727.49,1420.17"/>
+        <lane id="road_2_2_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1687.16,1931.49 1730.67,1420.45"/>
+    </edge>
+    <edge id="road_2_2_1" from="intersection_2_2" to="intersection_2_3" priority="-1" shape="1687.13,1945.93 1812.61,1967.37 1931.39,1993.71 2084.16,2034.37">
+        <lane id="road_2_2_1_0" index="0" speed="13.89" length="407.05" shape="1702.67,1940.47 1814.15,1959.52 1933.29,1985.94 2070.41,2022.43"/>
+        <lane id="road_2_2_1_1" index="1" speed="13.89" length="407.05" shape="1702.13,1943.62 1813.53,1962.66 1932.53,1989.05 2069.59,2025.52"/>
+        <lane id="road_2_2_1_2" index="2" speed="13.89" length="407.05" shape="1701.59,1946.78 1812.92,1965.80 1931.77,1992.16 2068.76,2028.62"/>
+    </edge>
+    <edge id="road_2_2_2" from="intersection_2_2" to="intersection_1_2" priority="10" type="highway.tertiary" shape="1685.96,1954.86 1693.36,2052.17 1695.52,2080.44 1698.65,2121.71 1702.40,2170.96 1708.93,2256.83 1712.53,2330.47 1712.65,2332.90 1717.87,2439.55 1718.22,2444.89 1722.63,2512.40 1726.38,2569.58 1726.62,2581.87">
+        <lane id="road_2_2_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1694.47,1961.25 1701.34,2051.56 1703.50,2079.83 1706.63,2121.10 1710.38,2170.35 1716.92,2256.33 1720.52,2330.08 1720.64,2332.51 1725.86,2439.15 1726.20,2444.37 1730.61,2511.88 1734.20,2566.58"/>
+        <lane id="road_2_2_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1691.28,1961.50 1698.15,2051.81 1700.31,2080.08 1703.44,2121.35 1707.19,2170.60 1713.72,2256.53 1717.32,2330.24 1717.44,2332.67 1722.66,2439.31 1723.01,2444.58 1727.42,2512.09 1731.00,2566.64"/>
+        <lane id="road_2_2_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="637.30" shape="1688.09,1961.74 1694.96,2052.05 1697.12,2080.32 1700.25,2121.59 1704.00,2170.84 1710.53,2256.73 1714.13,2330.39 1714.25,2332.82 1719.47,2439.47 1719.82,2444.79 1724.23,2512.30 1727.79,2566.70"/>
+    </edge>
+    <edge id="road_2_2_3" from="intersection_2_2" to="intersection_2_1" priority="-1" shape="1687.13,1945.93 1442.78,1904.60 1153.64,1848.70 981.14,1818.19">
+        <lane id="road_2_2_3_0" index="0" speed="13.89" length="717.49" shape="1671.97,1951.48 1441.35,1912.47 1152.18,1856.57 993.34,1828.47"/>
+        <lane id="road_2_2_3_1" index="1" speed="13.89" length="717.49" shape="1672.51,1948.32 1441.92,1909.32 1152.77,1853.42 993.89,1825.32"/>
+        <lane id="road_2_2_3_2" index="2" speed="13.89" length="717.49" shape="1673.04,1945.17 1442.49,1906.17 1153.35,1850.27 994.45,1822.17"/>
+    </edge>
+    <edge id="road_2_3_0" from="intersection_2_3" to="intersection_3_3" priority="11" type="highway.secondary" shape="2084.16,2034.37 2085.78,1876.76 2091.05,1823.96 2093.67,1701.12 2096.83,1652.74 2098.25,1642.39 2099.70,1463.26 2099.89,1439.75">
+        <lane id="road_2_3_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2076.33,2017.93 2077.78,1876.32 2083.06,1823.48 2085.68,1700.77 2088.87,1651.93 2090.25,1641.81 2091.70,1463.20 2091.71,1462.05"/>
+        <lane id="road_2_3_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2079.53,2017.96 2080.98,1876.50 2086.26,1823.67 2088.87,1700.91 2092.05,1652.26 2093.45,1642.04 2094.90,1463.22 2094.91,1462.08"/>
+        <lane id="road_2_3_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2082.73,2018.00 2084.18,1876.67 2089.45,1823.86 2092.07,1701.05 2095.24,1652.58 2096.65,1642.27 2098.10,1463.25 2098.11,1462.10"/>
+    </edge>
+    <edge id="road_2_3_1" from="intersection_2_3" to="intersection_2_4" priority="-1" shape="2084.16,2034.37 2203.76,2055.31 2427.37,2070.95">
+        <lane id="road_2_3_1_0" index="0" speed="13.89" length="345.58" shape="2107.52,2030.34 2204.73,2047.36 2427.93,2062.97"/>
+        <lane id="road_2_3_1_1" index="1" speed="13.89" length="345.58" shape="2106.97,2033.49 2204.34,2050.54 2427.70,2066.16"/>
+        <lane id="road_2_3_1_2" index="2" speed="13.89" length="345.58" shape="2106.42,2036.64 2203.95,2053.72 2427.48,2069.35"/>
+    </edge>
+    <edge id="road_2_3_2" from="intersection_2_3" to="intersection_1_3" priority="-1" shape="2084.16,2034.37 2121.06,2114.44 2149.63,2183.97 2214.31,2650.55">
+        <lane id="road_2_3_2_0" index="0" speed="13.89" length="634.38" shape="2100.76,2051.29 2128.40,2111.24 2157.42,2181.87 2219.94,2632.91"/>
+        <lane id="road_2_3_2_1" index="1" speed="13.89" length="634.38" shape="2097.86,2052.63 2125.46,2112.52 2154.30,2182.71 2216.77,2633.35"/>
+        <lane id="road_2_3_2_2" index="2" speed="13.89" length="634.38" shape="2094.95,2053.97 2122.53,2113.80 2151.19,2183.55 2213.60,2633.79"/>
+    </edge>
+    <edge id="road_2_3_3" from="intersection_2_3" to="intersection_2_2" priority="-1" shape="2084.16,2034.37 1931.39,1993.71 1812.61,1967.37 1687.13,1945.93">
+        <lane id="road_2_3_3_0" index="0" speed="13.89" length="407.05" shape="2066.30,2037.89 1929.49,2001.48 1811.07,1975.22 1699.97,1956.24"/>
+        <lane id="road_2_3_3_1" index="1" speed="13.89" length="407.05" shape="2067.12,2034.80 1930.25,1998.37 1811.69,1972.08 1700.51,1953.09"/>
+        <lane id="road_2_3_3_2" index="2" speed="13.89" length="407.05" shape="2067.94,2031.71 1931.01,1995.26 1812.30,1968.94 1701.05,1949.93"/>
+    </edge>
+    <edge id="road_2_4_3" from="intersection_2_4" to="intersection_2_3" priority="-1" shape="2427.37,2070.95 2203.76,2055.31 2084.16,2034.37">
+        <lane id="road_2_4_3_0" index="0" speed="13.89" length="345.58" shape="2426.81,2078.93 2202.79,2063.26 2104.76,2046.10"/>
+        <lane id="road_2_4_3_1" index="1" speed="13.89" length="345.58" shape="2427.04,2075.74 2203.18,2060.08 2105.31,2042.95"/>
+        <lane id="road_2_4_3_2" index="2" speed="13.89" length="345.58" shape="2427.26,2072.55 2203.57,2056.90 2105.86,2039.79"/>
+    </edge>
+    <edge id="road_3_0_1" from="intersection_3_0" to="intersection_3_1" priority="10" type="highway.tertiary" shape="536.35,1328.79 836.98,1360.62 1069.16,1387.84">
+        <lane id="road_3_0_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="537.19,1320.83 837.87,1352.67 1055.73,1378.21"/>
+        <lane id="road_3_0_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="536.86,1324.02 837.51,1355.85 1055.36,1381.39"/>
+        <lane id="road_3_0_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="536.52,1327.20 837.16,1359.03 1054.99,1384.57"/>
+    </edge>
+    <edge id="road_3_1_0" from="intersection_3_1" to="intersection_4_1" priority="11" type="highway.secondary" shape="1069.16,1387.84 1078.34,1332.95 1086.52,1284.03 1087.10,1280.56 1129.03,1029.78 1131.26,996.47">
+        <lane id="road_3_1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1063.75,1371.70 1070.45,1331.63 1078.63,1282.71 1079.21,1279.24 1121.07,1028.85 1122.37,1009.49"/>
+        <lane id="road_3_1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1066.90,1372.23 1073.61,1332.16 1081.79,1283.24 1082.37,1279.77 1124.26,1029.22 1125.56,1009.70"/>
+        <lane id="road_3_1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1070.06,1372.76 1076.76,1332.69 1084.94,1283.77 1085.52,1280.30 1127.44,1029.59 1128.76,1009.92"/>
+    </edge>
+    <edge id="road_3_1_1" from="intersection_3_1" to="intersection_3_2" priority="-1">
+        <lane id="road_3_1_1_0" index="0" speed="13.89" length="664.57" shape="1084.40,1380.26 1719.54,1398.08"/>
+        <lane id="road_3_1_1_1" index="1" speed="13.89" length="664.57" shape="1084.31,1383.46 1719.45,1401.27"/>
+        <lane id="road_3_1_1_2" index="2" speed="13.89" length="664.57" shape="1084.22,1386.66 1719.36,1404.47"/>
+    </edge>
+    <edge id="road_3_1_2" from="intersection_3_1" to="intersection_2_1" priority="11" type="highway.secondary" shape="1069.16,1387.84 1059.83,1433.42 1046.11,1500.47 1041.66,1522.22 1031.61,1571.31 983.40,1806.85">
+        <lane id="road_3_1_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="1074.10,1403.61 1067.67,1435.02 1053.95,1502.07 1049.50,1523.82 1039.45,1572.91 991.70,1806.19"/>
+        <lane id="road_3_1_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="1070.96,1402.96 1064.53,1434.38 1050.81,1501.43 1046.36,1523.18 1036.31,1572.27 988.57,1805.55"/>
+        <lane id="road_3_1_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="439.26" shape="1067.83,1402.32 1061.40,1433.74 1047.68,1500.79 1043.23,1522.54 1033.18,1571.63 985.43,1804.91"/>
+    </edge>
+    <edge id="road_3_1_3" from="intersection_3_1" to="intersection_3_0" priority="10" type="highway.tertiary" shape="1069.16,1387.84 836.98,1360.62 536.35,1328.79">
+        <lane id="road_3_1_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="1053.87,1394.10 836.09,1368.57 535.51,1336.75"/>
+        <lane id="road_3_1_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="1054.24,1390.92 836.45,1365.39 535.84,1333.56"/>
+        <lane id="road_3_1_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="536.08" shape="1054.62,1387.75 836.80,1362.21 536.18,1330.38"/>
+    </edge>
+    <edge id="road_3_2_0" from="intersection_3_2" to="intersection_4_2" priority="-1">
+        <lane id="road_3_2_0_0" index="0" speed="13.89" length="398.21" shape="1725.94,1392.66 1738.73,1021.96"/>
+        <lane id="road_3_2_0_1" index="1" speed="13.89" length="398.21" shape="1729.14,1392.77 1741.93,1022.07"/>
+        <lane id="road_3_2_0_2" index="2" speed="13.89" length="398.21" shape="1732.34,1392.88 1745.13,1022.18"/>
+    </edge>
+    <edge id="road_3_2_1" from="intersection_3_2" to="intersection_3_3" priority="-1">
+        <lane id="road_3_2_1_0" index="0" speed="13.89" length="367.93" shape="1747.79,1399.74 2086.63,1430.51"/>
+        <lane id="road_3_2_1_1" index="1" speed="13.89" length="367.93" shape="1747.50,1402.92 2086.34,1433.70"/>
+        <lane id="road_3_2_1_2" index="2" speed="13.89" length="367.93" shape="1747.21,1406.11 2086.05,1436.89"/>
+    </edge>
+    <edge id="road_3_2_2" from="intersection_3_2" to="intersection_2_2" priority="10" type="highway.tertiary" shape="1733.47,1406.47 1688.30,1937.00">
+        <lane id="road_3_2_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1740.24,1421.26 1696.73,1932.30"/>
+        <lane id="road_3_2_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1737.05,1420.99 1693.54,1932.03"/>
+        <lane id="road_3_2_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="541.45" shape="1733.86,1420.72 1690.35,1931.76"/>
+    </edge>
+    <edge id="road_3_2_3" from="intersection_3_2" to="intersection_3_1" priority="-1">
+        <lane id="road_3_2_3_0" index="0" speed="13.89" length="664.57" shape="1719.09,1414.07 1083.95,1396.26"/>
+        <lane id="road_3_2_3_1" index="1" speed="13.89" length="664.57" shape="1719.18,1410.87 1084.04,1393.06"/>
+        <lane id="road_3_2_3_2" index="2" speed="13.89" length="664.57" shape="1719.27,1407.67 1084.13,1389.86"/>
+    </edge>
+    <edge id="road_3_3_0" from="intersection_3_3" to="intersection_4_3" priority="11" type="highway.secondary" shape="2099.89,1439.75 2104.15,1346.94 2111.44,1148.87 2113.10,1104.42 2113.37,1095.83 2115.96,1008.94">
+        <lane id="road_3_3_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2092.54,1425.36 2096.16,1346.61 2103.45,1148.57 2105.11,1104.13 2105.37,1095.59 2107.54,1022.81"/>
+        <lane id="road_3_3_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2095.74,1425.51 2099.35,1346.74 2106.64,1148.69 2108.30,1104.25 2108.57,1095.68 2110.74,1022.90"/>
+        <lane id="road_3_3_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2098.94,1425.65 2102.55,1346.87 2109.84,1148.81 2111.50,1104.36 2111.77,1095.78 2113.94,1023.00"/>
+    </edge>
+    <edge id="road_3_3_1" from="intersection_3_3" to="intersection_3_4" priority="10" type="highway.tertiary" shape="2099.89,1439.75 2121.45,1455.00 2220.20,1469.59 2250.64,1473.85 2335.04,1485.63 2337.90,1486.05 2465.96,1504.49">
+        <lane id="road_3_3_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2122.77,1446.13 2124.51,1447.37 2221.34,1461.67 2251.75,1465.93 2336.15,1477.71 2339.05,1478.13 2467.10,1496.57"/>
+        <lane id="road_3_3_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2120.92,1448.75 2123.29,1450.42 2220.88,1464.84 2251.30,1469.10 2335.70,1480.88 2338.59,1481.30 2466.64,1499.74"/>
+        <lane id="road_3_3_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2119.07,1451.36 2122.06,1453.47 2220.43,1468.01 2250.86,1472.27 2335.26,1484.05 2338.13,1484.47 2466.19,1502.91"/>
+    </edge>
+    <edge id="road_3_3_2" from="intersection_3_3" to="intersection_2_3" priority="11" type="highway.secondary" shape="2099.89,1439.75 2099.70,1463.26 2098.25,1642.39 2096.83,1652.74 2093.67,1701.12 2091.05,1823.96 2085.78,1876.76 2084.16,2034.37">
+        <lane id="road_3_3_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2107.71,1462.18 2107.70,1463.32 2106.25,1642.97 2104.79,1653.55 2101.66,1701.47 2099.04,1824.44 2093.78,1877.20 2092.33,2018.10"/>
+        <lane id="road_3_3_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2104.51,1462.15 2104.50,1463.30 2103.05,1642.74 2101.61,1653.22 2098.47,1701.33 2095.84,1824.25 2090.58,1877.02 2089.13,2018.06"/>
+        <lane id="road_3_3_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="595.13" shape="2101.31,1462.13 2101.30,1463.27 2099.85,1642.51 2098.42,1652.90 2095.27,1701.19 2092.65,1824.06 2087.38,1876.85 2085.93,2018.03"/>
+    </edge>
+    <edge id="road_3_3_3" from="intersection_3_3" to="intersection_3_2" priority="-1">
+        <lane id="road_3_3_3_0" index="0" speed="13.89" length="367.93" shape="2085.18,1446.45 1746.34,1415.67"/>
+        <lane id="road_3_3_3_1" index="1" speed="13.89" length="367.93" shape="2085.47,1443.26 1746.63,1412.49"/>
+        <lane id="road_3_3_3_2" index="2" speed="13.89" length="367.93" shape="2085.76,1440.07 1746.92,1409.30"/>
+    </edge>
+    <edge id="road_3_4_3" from="intersection_3_4" to="intersection_3_3" priority="10" type="highway.tertiary" shape="2465.96,1504.49 2337.90,1486.05 2335.04,1485.63 2250.64,1473.85 2220.20,1469.59 2121.45,1455.00 2099.89,1439.75">
+        <lane id="road_3_4_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2464.82,1512.41 2336.76,1493.97 2333.91,1493.55 2249.53,1481.77 2219.06,1477.51 2118.39,1462.63 2113.53,1459.20"/>
+        <lane id="road_3_4_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2465.28,1509.24 2337.22,1490.80 2334.36,1490.38 2249.98,1478.60 2219.52,1474.34 2119.61,1459.58 2115.38,1456.59"/>
+        <lane id="road_3_4_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="374.46" shape="2465.73,1506.07 2337.67,1487.63 2334.81,1487.21 2250.42,1475.43 2219.97,1471.17 2120.84,1456.53 2117.23,1453.97"/>
+    </edge>
+    <edge id="road_4_0_1" from="intersection_4_0" to="intersection_4_1" priority="11" type="highway.secondary" shape="572.10,958.05 815.24,974.75 859.23,977.77 881.45,979.30 983.27,986.30 1131.26,996.47">
+        <lane id="road_4_0_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="572.65,950.07 815.79,966.77 859.78,969.79 882.00,971.32 983.82,978.32 1114.93,987.33"/>
+        <lane id="road_4_0_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="572.43,953.26 815.57,969.96 859.56,972.98 881.78,974.51 983.60,981.51 1114.71,990.52"/>
+        <lane id="road_4_0_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="572.21,956.45 815.35,973.15 859.34,976.17 881.56,977.70 983.38,984.70 1114.49,993.71"/>
+    </edge>
+    <edge id="road_4_1_0" from="intersection_4_1" to="intersection_5_1" priority="11" type="highway.secondary" shape="1131.26,996.47 1123.95,964.40 1099.26,908.70 1088.51,883.85 1081.26,866.27 1044.95,778.34 1040.66,767.95 1034.56,751.04 1032.71,724.48 1028.15,502.16 1026.04,399.85 1024.02,301.69 1028.20,552.81">
+        <lane id="road_4_1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1119.70,981.75 1116.32,966.93 1091.93,911.91 1081.14,886.96 1073.87,869.32 1037.56,781.39 1033.20,770.84 1026.66,752.71 1024.72,724.86 1020.20,553.02"/>
+        <lane id="road_4_1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1122.82,981.04 1119.37,965.92 1094.86,910.63 1084.09,885.72 1076.82,868.10 1040.51,780.17 1036.18,769.68 1029.82,752.04 1027.91,724.71 1023.40,552.94"/>
+        <lane id="road_4_1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1125.94,980.33 1122.42,964.91 1097.79,909.34 1087.04,884.47 1079.78,866.88 1043.47,778.95 1039.17,768.53 1032.98,751.37 1031.11,724.56 1026.60,552.85"/>
+    </edge>
+    <edge id="road_4_1_1" from="intersection_4_1" to="intersection_4_2" priority="-1">
+        <lane id="road_4_1_1_0" index="0" speed="13.89" length="616.06" shape="1144.57,988.73 1733.61,1000.23"/>
+        <lane id="road_4_1_1_1" index="1" speed="13.89" length="616.06" shape="1144.51,991.93 1733.55,1003.43"/>
+        <lane id="road_4_1_1_2" index="2" speed="13.89" length="616.06" shape="1144.44,995.13 1733.49,1006.63"/>
+    </edge>
+    <edge id="road_4_1_2" from="intersection_4_1" to="intersection_3_1" priority="11" type="highway.secondary" shape="1131.26,996.47 1129.03,1029.78 1087.10,1280.56 1086.52,1284.03 1078.34,1332.95 1069.16,1387.84">
+        <lane id="road_4_1_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1138.33,1010.56 1136.99,1030.71 1094.99,1281.88 1094.41,1285.35 1086.23,1334.27 1079.53,1374.34"/>
+        <lane id="road_4_1_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1135.14,1010.34 1133.80,1030.34 1091.83,1281.35 1091.25,1284.82 1083.07,1333.74 1076.37,1373.82"/>
+        <lane id="road_4_1_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="396.42" shape="1131.95,1010.13 1130.62,1029.97 1088.68,1280.82 1088.10,1284.29 1079.92,1333.21 1073.22,1373.29"/>
+    </edge>
+    <edge id="road_4_1_3" from="intersection_4_1" to="intersection_4_0" priority="11" type="highway.secondary" shape="1131.26,996.47 983.27,986.30 881.45,979.30 859.23,977.77 815.24,974.75 572.10,958.05">
+        <lane id="road_4_1_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="1113.83,1003.29 982.72,994.28 880.90,987.28 858.68,985.75 814.69,982.73 571.55,966.03"/>
+        <lane id="road_4_1_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="1114.05,1000.10 982.94,991.09 881.12,984.09 858.90,982.56 814.91,979.54 571.77,962.84"/>
+        <lane id="road_4_1_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="560.48" shape="1114.27,996.91 983.16,987.90 881.34,980.90 859.12,979.37 815.13,976.35 571.99,959.65"/>
+    </edge>
+    <edge id="road_4_2_0" from="intersection_4_2" to="intersection_5_2" priority="10" type="highway.tertiary">
+        <lane id="road_4_2_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1739.38,994.69 1744.57,590.65"/>
+        <lane id="road_4_2_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1742.58,994.73 1747.77,590.69"/>
+        <lane id="road_4_2_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1745.78,994.77 1750.97,590.73"/>
+    </edge>
+    <edge id="road_4_2_1" from="intersection_4_2" to="intersection_4_3" priority="-1">
+        <lane id="road_4_2_1_0" index="0" speed="13.89" length="368.76" shape="1760.92,1000.52 2102.09,1000.92"/>
+        <lane id="road_4_2_1_1" index="1" speed="13.89" length="368.76" shape="1760.92,1003.72 2102.09,1004.12"/>
+        <lane id="road_4_2_1_2" index="2" speed="13.89" length="368.76" shape="1760.91,1006.92 2102.08,1007.32"/>
+    </edge>
+    <edge id="road_4_2_2" from="intersection_4_2" to="intersection_3_2" priority="-1">
+        <lane id="road_4_2_2_0" index="0" speed="13.89" length="398.21" shape="1754.72,1022.51 1741.93,1393.22"/>
+        <lane id="road_4_2_2_1" index="1" speed="13.89" length="398.21" shape="1751.52,1022.40 1738.73,1393.11"/>
+        <lane id="road_4_2_2_2" index="2" speed="13.89" length="398.21" shape="1748.33,1022.29 1735.54,1392.99"/>
+    </edge>
+    <edge id="road_4_2_3" from="intersection_4_2" to="intersection_4_1" priority="-1">
+        <lane id="road_4_2_3_0" index="0" speed="13.89" length="616.06" shape="1733.30,1016.23 1144.26,1004.73"/>
+        <lane id="road_4_2_3_1" index="1" speed="13.89" length="616.06" shape="1733.36,1013.03 1144.32,1001.53"/>
+        <lane id="road_4_2_3_2" index="2" speed="13.89" length="616.06" shape="1733.43,1009.83 1144.38,998.33"/>
+    </edge>
+    <edge id="road_4_3_0" from="intersection_4_3" to="intersection_5_3" priority="11" type="highway.secondary" shape="2115.96,1008.94 2117.12,967.39 2115.89,938.43 2112.82,785.26 2111.17,703.29 2123.46,590.16 2132.35,536.89 2146.74,483.62">
+        <lane id="road_4_3_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2108.34,995.38 2109.12,967.45 2107.89,938.68 2104.82,785.42 2103.16,702.94 2115.53,589.07 2124.52,535.18 2139.02,481.53"/>
+        <lane id="road_4_3_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2111.53,995.46 2112.32,967.42 2111.09,938.58 2108.02,785.36 2106.36,703.08 2118.70,589.51 2127.65,535.87 2142.11,482.37"/>
+        <lane id="road_4_3_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2114.73,995.55 2115.52,967.40 2114.29,938.48 2111.22,785.29 2109.57,703.22 2121.87,589.94 2130.78,536.55 2145.20,483.20"/>
+    </edge>
+    <edge id="road_4_3_1" from="intersection_4_3" to="intersection_4_4" priority="11" type="highway.secondary" shape="2115.96,1008.94 2425.02,1034.31 2431.39,1035.54 2445.05,1038.15 2673.01,1081.80">
+        <lane id="road_4_3_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2130.68,1002.12 2426.11,1026.37 2432.90,1027.68 2446.55,1030.29 2674.51,1073.94"/>
+        <lane id="road_4_3_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2130.42,1005.31 2425.67,1029.55 2432.29,1030.83 2445.95,1033.44 2673.91,1077.09"/>
+        <lane id="road_4_3_1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2130.16,1008.50 2425.24,1032.72 2431.69,1033.97 2445.35,1036.58 2673.31,1080.23"/>
+    </edge>
+    <edge id="road_4_3_2" from="intersection_4_3" to="intersection_3_3" priority="11" type="highway.secondary" shape="2115.96,1008.94 2113.37,1095.83 2113.10,1104.42 2111.44,1148.87 2104.15,1346.94 2099.89,1439.75">
+        <lane id="road_4_3_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2123.54,1023.29 2121.37,1096.07 2121.10,1104.69 2119.43,1149.17 2112.14,1347.27 2108.53,1426.09"/>
+        <lane id="road_4_3_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2120.34,1023.19 2118.17,1095.97 2117.90,1104.58 2116.24,1149.05 2108.95,1347.14 2105.33,1425.95"/>
+        <lane id="road_4_3_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="431.12" shape="2117.14,1023.10 2114.97,1095.88 2114.70,1104.47 2113.04,1148.93 2105.75,1347.01 2102.13,1425.80"/>
+    </edge>
+    <edge id="road_4_3_3" from="intersection_4_3" to="intersection_4_2" priority="-1">
+        <lane id="road_4_3_3_0" index="0" speed="13.89" length="368.76" shape="2102.07,1016.92 1760.90,1016.52"/>
+        <lane id="road_4_3_3_1" index="1" speed="13.89" length="368.76" shape="2102.08,1013.72 1760.91,1013.32"/>
+        <lane id="road_4_3_3_2" index="2" speed="13.89" length="368.76" shape="2102.08,1010.52 1760.91,1010.12"/>
+    </edge>
+    <edge id="road_4_4_3" from="intersection_4_4" to="intersection_4_3" priority="11" type="highway.secondary" shape="2673.01,1081.80 2445.05,1038.15 2431.39,1035.54 2425.02,1034.31 2115.96,1008.94">
+        <lane id="road_4_4_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2671.51,1089.66 2443.55,1046.01 2429.88,1043.40 2423.93,1042.25 2129.37,1018.07"/>
+        <lane id="road_4_4_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2672.11,1086.51 2444.15,1042.86 2430.49,1040.25 2424.37,1039.07 2129.63,1014.88"/>
+        <lane id="road_4_4_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="562.60" shape="2672.71,1083.37 2444.75,1039.72 2431.09,1037.11 2424.80,1035.90 2129.90,1011.69"/>
+    </edge>
+    <edge id="road_5_1_2" from="intersection_5_1" to="intersection_4_1" priority="11" type="highway.secondary" shape="1028.20,552.81 1024.02,301.69 1026.04,399.85 1028.15,502.16 1032.71,724.48 1034.56,751.04 1040.66,767.95 1044.95,778.34 1081.26,866.27 1088.51,883.85 1099.26,908.70 1123.95,964.40 1131.26,996.47">
+        <lane id="road_5_1_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1036.20,552.60 1040.70,724.10 1042.46,749.37 1048.12,765.06 1052.34,775.29 1088.65,863.22 1095.88,880.74 1106.59,905.49 1131.58,961.87 1135.30,978.20"/>
+        <lane id="road_5_1_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1033.00,552.68 1037.51,724.25 1039.30,750.04 1045.14,766.22 1049.39,776.51 1085.70,864.44 1092.93,881.98 1103.66,906.77 1128.53,962.88 1132.18,978.91"/>
+        <lane id="road_5_1_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="463.61" shape="1029.80,552.77 1034.31,724.40 1036.14,750.71 1042.15,767.37 1046.43,777.73 1082.74,865.66 1089.98,883.23 1100.73,908.06 1125.48,963.89 1129.06,979.62"/>
+    </edge>
+    <edge id="road_5_2_2" from="intersection_5_2" to="intersection_4_2" priority="10" type="highway.tertiary">
+        <lane id="road_5_2_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1760.57,590.85 1755.38,994.89"/>
+        <lane id="road_5_2_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1757.37,590.81 1752.18,994.85"/>
+        <lane id="road_5_2_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="417.78" shape="1754.17,590.77 1748.98,994.81"/>
+    </edge>
+    <edge id="road_5_3_2" from="intersection_5_3" to="intersection_4_3" priority="11" type="highway.secondary" shape="2146.74,483.62 2132.35,536.89 2123.46,590.16 2111.17,703.29 2112.82,785.26 2115.89,938.43 2117.12,967.39 2115.96,1008.94">
+        <lane id="road_5_3_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2154.46,485.71 2140.18,538.60 2131.39,591.25 2119.18,703.64 2120.82,785.10 2123.89,938.18 2125.12,967.33 2124.33,995.82"/>
+        <lane id="road_5_3_2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2151.37,484.87 2137.05,537.91 2128.22,590.81 2115.98,703.50 2117.62,785.16 2120.69,938.28 2121.92,967.36 2121.13,995.73"/>
+        <lane id="road_5_3_2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="27.78" length="528.72" shape="2148.28,484.04 2133.92,537.23 2125.05,590.38 2112.77,703.36 2114.42,785.23 2117.49,938.38 2118.72,967.38 2117.93,995.64"/>
+    </edge>
+
+    <tlLogic id="intersection_1_1" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_1_2" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_1_3" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_2_1" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_2_2" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_2_3" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_3_1" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_3_2" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_3_3" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_4_1" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_4_2" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="intersection_4_3" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGGrrrrrrGGGGGGrrrGGGrrrrrrGGGGGGrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGrrrGGGrrrrrrGGGGGGrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrGGGGGGrrrrrrGGGrrrGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrGGGGGGrrrrrrGGGrrrGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGrrrrrrGGGGGGGGG"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGGGGGGGGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrGGGrrrrrrGGGGGGGGGGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+        <phase duration="30" state="GGGGGGGGGGGGrrrrrrGGGrrrrrrGGGrrrrrr"/>
+        <phase duration="5"  state="sssrrrrrrsssrrrrrrsssrrrrrrsssrrrrrr"/>
+    </tlLogic>
+
+    <junction id="intersection_0_1" type="dead_end" x="792.04" y="2788.08" incLanes="road_1_1_2_0 road_1_1_2_1 road_1_1_2_2" intLanes="" shape="792.04,2788.08 800.82,2791.97 792.04,2788.08"/>
+    <junction id="intersection_0_2" type="dead_end" x="1709.77" y="2871.54" incLanes="road_1_2_2_0 road_1_2_2_1 road_1_2_2_2" intLanes="" shape="1709.77,2871.54 1719.35,2872.10 1709.77,2871.54"/>
+    <junction id="intersection_0_3" type="dead_end" x="2191.61" y="3026.31" incLanes="road_1_3_2_0 road_1_3_2_1 road_1_3_2_2" intLanes="" shape="2191.61,3026.31 2201.20,3026.82 2191.61,3026.31"/>
+    <junction id="intersection_1_0" type="dead_end" x="405.38" y="2293.28" incLanes="road_1_1_3_0 road_1_1_3_1 road_1_1_3_2" intLanes="" shape="405.38,2293.28 402.19,2302.33 405.38,2293.28"/>
+    <junction id="intersection_1_1" type="traffic_light" x="887.65" y="2476.22" incLanes="road_1_2_3_0 road_1_2_3_1 road_1_2_3_2 road_2_1_2_0 road_2_1_2_1 road_2_1_2_2 road_1_0_1_0 road_1_0_1_1 road_1_0_1_2 road_0_1_0_0 road_0_1_0_1 road_0_1_0_2" intLanes="" shape="899.98,2487.52 902.48,2468.48 899.08,2464.00 880.07,2461.31 873.67,2465.85 872.62,2485.02 876.04,2489.19 895.03,2491.99">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_1_2" type="traffic_light" x="1726.62" y="2581.87" incLanes="road_1_3_3_0 road_1_3_3_1 road_1_3_3_2 road_2_2_2_0 road_2_2_2_1 road_2_2_2_2 road_1_1_1_0 road_1_1_1_1 road_1_1_1_2 road_0_2_0_0 road_0_2_0_1 road_0_2_0_2" intLanes="" shape="1739.56,2593.41 1742.27,2574.41 1735.80,2566.55 1716.58,2566.92 1712.84,2570.40 1710.36,2589.44 1716.20,2595.73 1735.37,2596.84">
+        <request index="0"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_1_3" type="traffic_light" x="2214.31" y="2650.55" incLanes="road_1_4_3_0 road_1_4_3_1 road_1_4_3_2 road_2_3_2_0 road_2_3_2_1 road_2_3_2_2 road_1_2_1_0 road_1_2_1_1 road_1_2_1_2 road_0_3_0_0 road_0_3_0_1 road_0_3_0_2" intLanes="" shape="2227.31,2660.63 2228.01,2641.45 2221.53,2632.69 2202.51,2635.33 2199.10,2638.74 2196.45,2657.75 2203.90,2663.29 2223.06,2664.48">
+        <request index="0"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_1_4" type="dead_end" x="2476.52" y="2660.17" incLanes="road_1_3_1_0 road_1_3_1_1 road_1_3_1_2" intLanes="" shape="2476.52,2660.17 2476.87,2650.58 2476.52,2660.17"/>
+    <junction id="intersection_2_0" type="dead_end" x="481.39" y="1650.53" incLanes="road_2_1_3_0 road_2_1_3_1 road_2_1_3_2" intLanes="" shape="481.39,1650.53 477.98,1659.51 481.39,1650.53"/>
+    <junction id="intersection_2_1" type="traffic_light" x="981.14" y="1818.19" incLanes="road_2_2_3_0 road_2_2_3_1 road_2_2_3_2 road_3_1_2_0 road_3_1_2_1 road_3_1_2_2 road_2_0_1_0 road_2_0_1_1 road_2_0_1_2 road_1_1_0_0 road_1_1_0_1 road_1_1_0_2" intLanes="" shape="993.06,1830.05 996.40,1811.14 993.27,1806.51 974.46,1802.66 969.76,1805.67 965.39,1824.37 969.04,1830.56 988.06,1833.22">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_2_2" type="traffic_light" x="1687.13" y="1945.93" incLanes="road_1_2_0_0 road_1_2_0_1 road_1_2_0_2 road_2_3_3_0 road_2_3_3_1 road_2_3_3_2 road_3_2_2_0 road_3_2_2_1 road_3_2_2_2 road_2_1_1_0 road_2_1_1_1 road_2_1_1_2" intLanes="" shape="1676.92,1962.59 1696.06,1961.13 1699.70,1957.82 1702.94,1938.89 1698.32,1932.44 1679.19,1930.81 1674.91,1934.13 1671.71,1953.06">
+        <request index="0"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000000000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="000000000000000000000000000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="000000000000111111000000000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000111000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000111111000000000000111111111" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111111111000000000000111111000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000000000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="000000000000000000000000000000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="000000000000000000000000000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000111000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000111111111000000000111111000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000111111000000111111111111000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_2_3" type="traffic_light" x="2084.16" y="2034.37" incLanes="road_1_3_0_0 road_1_3_0_1 road_1_3_0_2 road_2_4_3_0 road_2_4_3_1 road_2_4_3_2 road_3_3_2_0 road_3_3_2_1 road_3_3_2_2 road_2_2_1_0 road_2_2_1_1 road_2_2_1_2" intLanes="" shape="2084.78,2058.65 2102.22,2050.62 2104.48,2047.67 2107.80,2028.76 2093.93,2018.11 2074.73,2017.91 2070.82,2020.89 2065.88,2039.44">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_2_4" type="dead_end" x="2427.37" y="2070.95" incLanes="road_2_3_1_0 road_2_3_1_1 road_2_3_1_2" intLanes="" shape="2427.37,2070.95 2428.04,2061.37 2427.37,2070.95"/>
+    <junction id="intersection_3_0" type="dead_end" x="536.35" y="1328.79" incLanes="road_3_1_3_0 road_3_1_3_1 road_3_1_3_2" intLanes="" shape="536.35,1328.79 535.34,1338.34 536.35,1328.79"/>
+    <junction id="intersection_3_1" type="traffic_light" x="1069.16" y="1387.84" incLanes="road_3_2_3_0 road_3_2_3_1 road_3_2_3_2 road_4_1_2_0 road_4_1_2_1 road_4_1_2_2 road_3_0_1_0 road_3_0_1_1 road_3_0_1_2 road_2_1_0_0 road_2_1_0_1 road_2_1_0_2" intLanes="" shape="1083.91,1397.86 1084.44,1378.66 1081.11,1374.61 1062.17,1371.44 1055.92,1376.62 1053.69,1395.69 1056.86,1400.08 1075.67,1403.93">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_3_2" type="traffic_light" x="1733.47" y="1406.47" incLanes="road_3_3_3_0 road_3_3_3_1 road_3_3_3_2 road_4_2_2_0 road_4_2_2_1 road_4_2_2_2 road_3_1_1_0 road_3_1_1_1 road_3_1_1_2 road_2_2_0_0 road_2_2_0_1 road_2_2_0_2" intLanes="" shape="1746.20,1417.27 1747.94,1398.14 1743.53,1393.27 1724.34,1392.61 1719.58,1396.48 1719.04,1415.67 1722.70,1419.77 1741.83,1421.40">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_3_3" type="traffic_light" x="2099.89" y="1439.75" incLanes="road_3_4_3_0 road_3_4_3_1 road_3_4_3_2 road_4_3_2_0 road_4_3_2_1 road_4_3_2_2 road_3_2_1_0 road_3_2_1_1 road_3_2_1_2 road_2_3_0_0 road_2_3_0_1 road_2_3_0_2" intLanes="" shape="2112.61,1460.50 2123.69,1444.83 2110.12,1426.17 2090.94,1425.29 2086.78,1428.92 2085.04,1448.04 2090.11,1462.04 2109.31,1462.19">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_3_4" type="priority" x="2465.96" y="1504.49" incLanes="road_3_3_1_0 road_3_3_1_1 road_3_3_1_2" intLanes="" shape="2465.96,1504.49 2467.33,1494.99 2465.96,1504.49">
+        <request index="0" response="0" foes="0"/>
+    </junction>
+    <junction id="intersection_4_0" type="dead_end" x="572.10" y="958.05" incLanes="road_4_1_3_0 road_4_1_3_1 road_4_1_3_2" intLanes="" shape="572.10,958.05 571.44,967.63 572.10,958.05"/>
+    <junction id="intersection_4_1" type="traffic_light" x="1131.26" y="996.47" incLanes="road_4_2_3_0 road_4_2_3_1 road_4_2_3_2 road_5_1_2_0 road_5_1_2_1 road_5_1_2_2 road_4_0_1_0 road_4_0_1_1 road_4_0_1_2 road_3_1_0_0 road_3_1_0_1 road_3_1_0_2" intLanes="" shape="1144.23,1006.33 1144.60,987.13 1136.86,977.84 1118.14,982.11 1115.04,985.73 1113.72,1004.89 1120.77,1009.38 1139.93,1010.66">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_4_2" type="traffic_light" x="1747.20" y="1008.50" incLanes="road_4_3_3_0 road_4_3_3_1 road_4_3_3_2 road_5_2_2_0 road_5_2_2_1 road_5_2_2_2 road_4_1_1_0 road_4_1_1_1 road_4_1_1_2 road_3_2_0_0 road_3_2_0_1 road_3_2_0_2" intLanes="" shape="1760.90,1018.12 1760.92,998.92 1756.98,994.91 1737.78,994.67 1733.65,998.63 1733.27,1017.83 1737.13,1021.91 1756.32,1022.57">
+        <request index="0"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="1"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="2"  response="000000000000000000000111000000000000" foes="000000000111000000000111000000000000"/>
+        <request index="3"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="4"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="5"  response="111111111000000000111111000000000000" foes="111111111111000000111111000000000000"/>
+        <request index="6"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="7"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="8"  response="111111000000111111111111000000000000" foes="111111000000111111111111000000000000"/>
+        <request index="9"  response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="10" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="11" response="000000000000000000000000000000000000" foes="111000000000111000000000000000000000"/>
+        <request index="12" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="13" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="14" response="000000000000000000000000000000000000" foes="111000000111111000000000000111111111"/>
+        <request index="15" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="16" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="17" response="000111111000000000000000000000000000" foes="000111111111111000000000000111111000"/>
+        <request index="18" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="19" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="20" response="000111000000000000000000000000000000" foes="000111000000000000000000000111000000"/>
+        <request index="21" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="22" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="23" response="111111000000000000111111111000000000" foes="111111000000000000111111111111000000"/>
+        <request index="24" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="25" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="26" response="111111000000000000111111000000111111" foes="111111000000000000111111000000111111"/>
+        <request index="27" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="28" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="29" response="000000000000000000000000000000000000" foes="000000000000000000111000000000111000"/>
+        <request index="30" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="31" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="32" response="000000000000000000000000000000000000" foes="000000000111111111111000000111111000"/>
+        <request index="33" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="34" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+        <request index="35" response="000000000000000000000111111000000000" foes="000000000111111000000111111111111000"/>
+    </junction>
+    <junction id="intersection_4_3" type="traffic_light" x="2115.96" y="1008.94" incLanes="road_4_4_3_0 road_4_4_3_1 road_4_4_3_2 road_5_3_2_0 road_5_3_2_1 road_5_3_2_2 road_4_2_1_0 road_4_2_1_1 road_4_2_1_2 road_3_3_0_0 road_3_3_0_1 road_3_3_0_2" intLanes="" shape="2129.24,1019.66 2130.81,1000.53 2125.93,995.87 2106.74,995.33 2102.09,999.32 2102.07,1018.52 2105.94,1022.76 2125.14,1023.33">
+        <request index="0"  response="00000000000000000000011100000000" foes="00000000011100000000011100000000"/>
+        <request index="1"  response="11111111100000000011111100000000" foes="11111111111100000011111100000000"/>
+        <request index="2"  response="11111111100000000011111100000000" foes="11111111111100000011111100000000"/>
+        <request index="3"  response="11111111100000000011111100000000" foes="11111111111100000011111100000000"/>
+        <request index="4"  response="11111100000011111111111100000000" foes="11111100000011111111111100000000"/>
+        <request index="5"  response="00000000000000000000000000000000" foes="11100000000011100000000000000000"/>
+        <request index="6"  response="00000000000000000000000000000000" foes="11100000000011100000000000000000"/>
+        <request index="7"  response="00000000000000000000000000000000" foes="11100000000011100000000000000000"/>
+        <request index="8"  response="00000000000000000000000000000000" foes="11100000011111100000000000011111"/>
+        <request index="9"  response="00000000000000000000000000000000" foes="11100000011111100000000000011111"/>
+        <request index="10" response="00000000000000000000000000000000" foes="11100000011111100000000000011111"/>
+        <request index="11" response="00011111100000000000000000000000" foes="00011111111111100000000000011110"/>
+        <request index="12" response="00011111100000000000000000000000" foes="00011111111111100000000000011110"/>
+        <request index="13" response="00011111100000000000000000000000" foes="00011111111111100000000000011110"/>
+        <request index="14" response="00011100000000000000000000000000" foes="00011100000000000000000000010000"/>
+        <request index="15" response="00011100000000000000000000000000" foes="00011100000000000000000000010000"/>
+        <request index="16" response="00011100000000000000000000000000" foes="00011100000000000000000000010000"/>
+        <request index="17" response="11111100000000000011111111100000" foes="11111100000000000011111111110000"/>
+        <request index="18" response="11111100000000000011111111100000" foes="11111100000000000011111111110000"/>
+        <request index="19" response="11111100000000000011111111100000" foes="11111100000000000011111111110000"/>
+        <request index="20" response="11111100000000000011111100001111" foes="11111100000000000011111100001111"/>
+        <request index="21" response="11111100000000000011111100001111" foes="11111100000000000011111100001111"/>
+        <request index="22" response="11111100000000000011111100001111" foes="11111100000000000011111100001111"/>
+        <request index="23" response="00000000000000000000000000000000" foes="00000000000000000011100000001110"/>
+        <request index="24" response="00000000000000000000000000000000" foes="00000000000000000011100000001110"/>
+        <request index="25" response="00000000000000000000000000000000" foes="00000000000000000011100000001110"/>
+        <request index="26" response="00000000000000000000000000000000" foes="00000000011111111111100000011110"/>
+        <request index="27" response="00000000000000000000000000000000" foes="00000000011111111111100000011110"/>
+        <request index="28" response="00000000000000000000000000000000" foes="00000000011111111111100000011110"/>
+        <request index="29" response="00000000000000000000011111100000" foes="00000000011111100000011111111110"/>
+        <request index="30" response="00000000000000000000011111100000" foes="00000000011111100000011111111110"/>
+        <request index="31" response="00000000000000000000011111100000" foes="00000000011111100000011111111110"/>
+    </junction>
+    <junction id="intersection_4_4" type="priority" x="2673.01" y="1081.80" incLanes="road_4_3_1_0 road_4_3_1_1 road_4_3_1_2" intLanes="" shape="2673.01,1081.80 2674.82,1072.37 2673.01,1081.80">
+        <request index="0" response="0" foes="0"/>
+    </junction>
+    <junction id="intersection_5_1" type="dead_end" x="1028.20" y="552.81" incLanes="road_4_1_0_0 road_4_1_0_1 road_4_1_0_2" intLanes="" shape="1028.20,552.81 1018.60,553.06 1028.20,552.81"/>
+    <junction id="intersection_5_2" type="priority" x="1752.57" y="590.75" incLanes="road_4_2_0_0 road_4_2_0_1 road_4_2_0_2" intLanes="" shape="1752.57,590.75 1742.97,590.63 1752.57,590.75">
+        <request index="0" response="0" foes="0"/>
+    </junction>
+    <junction id="intersection_5_3" type="priority" x="2146.74" y="483.62" incLanes="road_4_3_0_0 road_4_3_0_1 road_4_3_0_2" intLanes="" shape="2146.74,483.62 2137.47,481.12 2146.74,483.62">
+        <request index="0" response="0" foes="0"/>
+    </junction>
+
+    <connection from="road_0_1_0" to="road_1_1_3" fromLane="0" toLane="0" tl="intersection_1_1" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_3" fromLane="0" toLane="1" tl="intersection_1_1" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_3" fromLane="0" toLane="2" tl="intersection_1_1" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_0" fromLane="1" toLane="0" tl="intersection_1_1" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_0" fromLane="1" toLane="1" tl="intersection_1_1" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_0" fromLane="1" toLane="2" tl="intersection_1_1" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_0_1_0" to="road_1_1_1" fromLane="2" toLane="0" tl="intersection_1_1" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_0_1_0" to="road_1_1_1" fromLane="2" toLane="1" tl="intersection_1_1" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_0_1_0" to="road_1_1_1" fromLane="2" toLane="2" tl="intersection_1_1" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_3" fromLane="0" toLane="0" tl="intersection_1_2" linkIndex="27" dir="r" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_3" fromLane="0" toLane="1" tl="intersection_1_2" linkIndex="28" dir="r" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_3" fromLane="0" toLane="2" tl="intersection_1_2" linkIndex="29" dir="r" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_0" fromLane="1" toLane="0" tl="intersection_1_2" linkIndex="30" dir="s" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_0" fromLane="1" toLane="1" tl="intersection_1_2" linkIndex="31" dir="s" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_0" fromLane="1" toLane="2" tl="intersection_1_2" linkIndex="32" dir="s" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_1" fromLane="2" toLane="0" tl="intersection_1_2" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_1" fromLane="2" toLane="1" tl="intersection_1_2" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_0_2_0" to="road_1_2_1" fromLane="2" toLane="2" tl="intersection_1_2" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_3" fromLane="0" toLane="0" tl="intersection_1_3" linkIndex="27" dir="r" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_3" fromLane="0" toLane="1" tl="intersection_1_3" linkIndex="28" dir="r" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_3" fromLane="0" toLane="2" tl="intersection_1_3" linkIndex="29" dir="r" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_0" fromLane="1" toLane="0" tl="intersection_1_3" linkIndex="30" dir="s" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_0" fromLane="1" toLane="1" tl="intersection_1_3" linkIndex="31" dir="s" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_0" fromLane="1" toLane="2" tl="intersection_1_3" linkIndex="32" dir="s" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_1" fromLane="2" toLane="0" tl="intersection_1_3" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_1" fromLane="2" toLane="1" tl="intersection_1_3" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_0_3_0" to="road_1_3_1" fromLane="2" toLane="2" tl="intersection_1_3" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_0" fromLane="0" toLane="0" tl="intersection_1_1" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_0" fromLane="0" toLane="1" tl="intersection_1_1" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_0" fromLane="0" toLane="2" tl="intersection_1_1" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_1" fromLane="1" toLane="0" tl="intersection_1_1" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_1" fromLane="1" toLane="1" tl="intersection_1_1" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_1" fromLane="1" toLane="2" tl="intersection_1_1" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_2" fromLane="2" toLane="0" tl="intersection_1_1" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_2" fromLane="2" toLane="1" tl="intersection_1_1" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_1_0_1" to="road_1_1_2" fromLane="2" toLane="2" tl="intersection_1_1" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_1_1_0" to="road_2_1_3" fromLane="0" toLane="0" tl="intersection_2_1" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_3" fromLane="0" toLane="1" tl="intersection_2_1" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_3" fromLane="0" toLane="2" tl="intersection_2_1" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_0" fromLane="1" toLane="0" tl="intersection_2_1" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_0" fromLane="1" toLane="1" tl="intersection_2_1" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_0" fromLane="1" toLane="2" tl="intersection_2_1" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_1_1_0" to="road_2_1_1" fromLane="2" toLane="0" tl="intersection_2_1" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_1_1_0" to="road_2_1_1" fromLane="2" toLane="1" tl="intersection_2_1" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_1_1_0" to="road_2_1_1" fromLane="2" toLane="2" tl="intersection_2_1" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_1_1_1" to="road_1_2_0" fromLane="0" toLane="0" tl="intersection_1_2" linkIndex="18" dir="r" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_0" fromLane="0" toLane="1" tl="intersection_1_2" linkIndex="19" dir="r" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_0" fromLane="0" toLane="2" tl="intersection_1_2" linkIndex="20" dir="r" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_1" fromLane="1" toLane="0" tl="intersection_1_2" linkIndex="21" dir="s" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_1" fromLane="1" toLane="1" tl="intersection_1_2" linkIndex="22" dir="s" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_1" fromLane="1" toLane="2" tl="intersection_1_2" linkIndex="23" dir="s" state="O"/>
+    <connection from="road_1_1_1" to="road_1_2_2" fromLane="2" toLane="0" tl="intersection_1_2" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_1_1_1" to="road_1_2_2" fromLane="2" toLane="1" tl="intersection_1_2" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_1_1_1" to="road_1_2_2" fromLane="2" toLane="2" tl="intersection_1_2" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_1_2_0" to="road_2_2_3" fromLane="0" toLane="0" tl="intersection_2_2" linkIndex="0" dir="r" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_3" fromLane="0" toLane="1" tl="intersection_2_2" linkIndex="1" dir="r" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_3" fromLane="0" toLane="2" tl="intersection_2_2" linkIndex="2" dir="r" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_0" fromLane="1" toLane="0" tl="intersection_2_2" linkIndex="3" dir="s" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_0" fromLane="1" toLane="1" tl="intersection_2_2" linkIndex="4" dir="s" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_0" fromLane="1" toLane="2" tl="intersection_2_2" linkIndex="5" dir="s" state="O"/>
+    <connection from="road_1_2_0" to="road_2_2_1" fromLane="2" toLane="0" tl="intersection_2_2" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_1_2_0" to="road_2_2_1" fromLane="2" toLane="1" tl="intersection_2_2" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_1_2_0" to="road_2_2_1" fromLane="2" toLane="2" tl="intersection_2_2" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_1_2_1" to="road_1_3_0" fromLane="0" toLane="0" tl="intersection_1_3" linkIndex="18" dir="r" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_0" fromLane="0" toLane="1" tl="intersection_1_3" linkIndex="19" dir="r" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_0" fromLane="0" toLane="2" tl="intersection_1_3" linkIndex="20" dir="r" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_1" fromLane="1" toLane="0" tl="intersection_1_3" linkIndex="21" dir="s" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_1" fromLane="1" toLane="1" tl="intersection_1_3" linkIndex="22" dir="s" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_1" fromLane="1" toLane="2" tl="intersection_1_3" linkIndex="23" dir="s" state="O"/>
+    <connection from="road_1_2_1" to="road_1_3_2" fromLane="2" toLane="0" tl="intersection_1_3" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_1_2_1" to="road_1_3_2" fromLane="2" toLane="1" tl="intersection_1_3" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_1_2_1" to="road_1_3_2" fromLane="2" toLane="2" tl="intersection_1_3" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_2" fromLane="0" toLane="0" tl="intersection_1_1" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_2" fromLane="0" toLane="1" tl="intersection_1_1" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_2" fromLane="0" toLane="2" tl="intersection_1_1" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_3" fromLane="1" toLane="0" tl="intersection_1_1" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_3" fromLane="1" toLane="1" tl="intersection_1_1" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_3" fromLane="1" toLane="2" tl="intersection_1_1" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_0" fromLane="2" toLane="0" tl="intersection_1_1" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_0" fromLane="2" toLane="1" tl="intersection_1_1" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_1_2_3" to="road_1_1_0" fromLane="2" toLane="2" tl="intersection_1_1" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_3" fromLane="0" toLane="0" tl="intersection_2_3" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_3" fromLane="0" toLane="1" tl="intersection_2_3" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_3" fromLane="0" toLane="2" tl="intersection_2_3" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_0" fromLane="1" toLane="0" tl="intersection_2_3" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_0" fromLane="1" toLane="1" tl="intersection_2_3" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_0" fromLane="1" toLane="2" tl="intersection_2_3" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_1" fromLane="2" toLane="0" tl="intersection_2_3" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_1" fromLane="2" toLane="1" tl="intersection_2_3" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_1_3_0" to="road_2_3_1" fromLane="2" toLane="2" tl="intersection_2_3" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_1_3_3" to="road_1_2_2" fromLane="0" toLane="0" tl="intersection_1_2" linkIndex="0" dir="r" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_2" fromLane="0" toLane="1" tl="intersection_1_2" linkIndex="1" dir="r" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_2" fromLane="0" toLane="2" tl="intersection_1_2" linkIndex="2" dir="r" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_3" fromLane="1" toLane="0" tl="intersection_1_2" linkIndex="3" dir="s" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_3" fromLane="1" toLane="1" tl="intersection_1_2" linkIndex="4" dir="s" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_3" fromLane="1" toLane="2" tl="intersection_1_2" linkIndex="5" dir="s" state="O"/>
+    <connection from="road_1_3_3" to="road_1_2_0" fromLane="2" toLane="0" tl="intersection_1_2" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_1_3_3" to="road_1_2_0" fromLane="2" toLane="1" tl="intersection_1_2" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_1_3_3" to="road_1_2_0" fromLane="2" toLane="2" tl="intersection_1_2" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_1_4_3" to="road_1_3_2" fromLane="0" toLane="0" tl="intersection_1_3" linkIndex="0" dir="r" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_2" fromLane="0" toLane="1" tl="intersection_1_3" linkIndex="1" dir="r" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_2" fromLane="0" toLane="2" tl="intersection_1_3" linkIndex="2" dir="r" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_3" fromLane="1" toLane="0" tl="intersection_1_3" linkIndex="3" dir="s" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_3" fromLane="1" toLane="1" tl="intersection_1_3" linkIndex="4" dir="s" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_3" fromLane="1" toLane="2" tl="intersection_1_3" linkIndex="5" dir="s" state="O"/>
+    <connection from="road_1_4_3" to="road_1_3_0" fromLane="2" toLane="0" tl="intersection_1_3" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_1_4_3" to="road_1_3_0" fromLane="2" toLane="1" tl="intersection_1_3" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_1_4_3" to="road_1_3_0" fromLane="2" toLane="2" tl="intersection_1_3" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_0" fromLane="0" toLane="0" tl="intersection_2_1" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_0" fromLane="0" toLane="1" tl="intersection_2_1" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_0" fromLane="0" toLane="2" tl="intersection_2_1" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_1" fromLane="1" toLane="0" tl="intersection_2_1" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_1" fromLane="1" toLane="1" tl="intersection_2_1" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_1" fromLane="1" toLane="2" tl="intersection_2_1" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_2" fromLane="2" toLane="0" tl="intersection_2_1" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_2" fromLane="2" toLane="1" tl="intersection_2_1" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_2_0_1" to="road_2_1_2" fromLane="2" toLane="2" tl="intersection_2_1" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_2_1_0" to="road_3_1_3" fromLane="0" toLane="0" tl="intersection_3_1" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_3" fromLane="0" toLane="1" tl="intersection_3_1" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_3" fromLane="0" toLane="2" tl="intersection_3_1" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_0" fromLane="1" toLane="0" tl="intersection_3_1" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_0" fromLane="1" toLane="1" tl="intersection_3_1" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_0" fromLane="1" toLane="2" tl="intersection_3_1" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_2_1_0" to="road_3_1_1" fromLane="2" toLane="0" tl="intersection_3_1" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_2_1_0" to="road_3_1_1" fromLane="2" toLane="1" tl="intersection_3_1" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_2_1_0" to="road_3_1_1" fromLane="2" toLane="2" tl="intersection_3_1" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_0" fromLane="0" toLane="0" tl="intersection_2_2" linkIndex="27" dir="r" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_0" fromLane="0" toLane="1" tl="intersection_2_2" linkIndex="28" dir="r" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_0" fromLane="0" toLane="2" tl="intersection_2_2" linkIndex="29" dir="r" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_1" fromLane="1" toLane="0" tl="intersection_2_2" linkIndex="30" dir="s" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_1" fromLane="1" toLane="1" tl="intersection_2_2" linkIndex="31" dir="s" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_1" fromLane="1" toLane="2" tl="intersection_2_2" linkIndex="32" dir="s" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_2" fromLane="2" toLane="0" tl="intersection_2_2" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_2" fromLane="2" toLane="1" tl="intersection_2_2" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_2_1_1" to="road_2_2_2" fromLane="2" toLane="2" tl="intersection_2_2" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_2_1_2" to="road_1_1_1" fromLane="0" toLane="0" tl="intersection_1_1" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_1" fromLane="0" toLane="1" tl="intersection_1_1" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_1" fromLane="0" toLane="2" tl="intersection_1_1" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_2" fromLane="1" toLane="0" tl="intersection_1_1" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_2" fromLane="1" toLane="1" tl="intersection_1_1" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_2" fromLane="1" toLane="2" tl="intersection_1_1" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_2_1_2" to="road_1_1_3" fromLane="2" toLane="0" tl="intersection_1_1" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_2_1_2" to="road_1_1_3" fromLane="2" toLane="1" tl="intersection_1_1" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_2_1_2" to="road_1_1_3" fromLane="2" toLane="2" tl="intersection_1_1" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_2_2_0" to="road_3_2_3" fromLane="0" toLane="0" tl="intersection_3_2" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_3" fromLane="0" toLane="1" tl="intersection_3_2" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_3" fromLane="0" toLane="2" tl="intersection_3_2" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_0" fromLane="1" toLane="0" tl="intersection_3_2" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_0" fromLane="1" toLane="1" tl="intersection_3_2" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_0" fromLane="1" toLane="2" tl="intersection_3_2" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_2_2_0" to="road_3_2_1" fromLane="2" toLane="0" tl="intersection_3_2" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_2_2_0" to="road_3_2_1" fromLane="2" toLane="1" tl="intersection_3_2" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_2_2_0" to="road_3_2_1" fromLane="2" toLane="2" tl="intersection_3_2" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_2_2_1" to="road_2_3_0" fromLane="0" toLane="0" tl="intersection_2_3" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_0" fromLane="0" toLane="1" tl="intersection_2_3" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_0" fromLane="0" toLane="2" tl="intersection_2_3" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_1" fromLane="1" toLane="0" tl="intersection_2_3" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_1" fromLane="1" toLane="1" tl="intersection_2_3" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_1" fromLane="1" toLane="2" tl="intersection_2_3" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_2_2_1" to="road_2_3_2" fromLane="2" toLane="0" tl="intersection_2_3" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_2_2_1" to="road_2_3_2" fromLane="2" toLane="1" tl="intersection_2_3" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_2_2_1" to="road_2_3_2" fromLane="2" toLane="2" tl="intersection_2_3" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_1" fromLane="0" toLane="0" tl="intersection_1_2" linkIndex="9" dir="r" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_1" fromLane="0" toLane="1" tl="intersection_1_2" linkIndex="10" dir="r" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_1" fromLane="0" toLane="2" tl="intersection_1_2" linkIndex="11" dir="r" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_2" fromLane="1" toLane="0" tl="intersection_1_2" linkIndex="12" dir="s" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_2" fromLane="1" toLane="1" tl="intersection_1_2" linkIndex="13" dir="s" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_2" fromLane="1" toLane="2" tl="intersection_1_2" linkIndex="14" dir="s" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_3" fromLane="2" toLane="0" tl="intersection_1_2" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_3" fromLane="2" toLane="1" tl="intersection_1_2" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_2_2_2" to="road_1_2_3" fromLane="2" toLane="2" tl="intersection_1_2" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_2" fromLane="0" toLane="0" tl="intersection_2_1" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_2" fromLane="0" toLane="1" tl="intersection_2_1" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_2" fromLane="0" toLane="2" tl="intersection_2_1" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_3" fromLane="1" toLane="0" tl="intersection_2_1" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_3" fromLane="1" toLane="1" tl="intersection_2_1" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_3" fromLane="1" toLane="2" tl="intersection_2_1" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_0" fromLane="2" toLane="0" tl="intersection_2_1" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_0" fromLane="2" toLane="1" tl="intersection_2_1" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_2_2_3" to="road_2_1_0" fromLane="2" toLane="2" tl="intersection_2_1" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_2_3_0" to="road_3_3_3" fromLane="0" toLane="0" tl="intersection_3_3" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_3" fromLane="0" toLane="1" tl="intersection_3_3" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_3" fromLane="0" toLane="2" tl="intersection_3_3" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_0" fromLane="1" toLane="0" tl="intersection_3_3" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_0" fromLane="1" toLane="1" tl="intersection_3_3" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_0" fromLane="1" toLane="2" tl="intersection_3_3" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_2_3_0" to="road_3_3_1" fromLane="2" toLane="0" tl="intersection_3_3" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_2_3_0" to="road_3_3_1" fromLane="2" toLane="1" tl="intersection_3_3" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_2_3_0" to="road_3_3_1" fromLane="2" toLane="2" tl="intersection_3_3" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_1" fromLane="0" toLane="0" tl="intersection_1_3" linkIndex="9" dir="r" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_1" fromLane="0" toLane="1" tl="intersection_1_3" linkIndex="10" dir="r" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_1" fromLane="0" toLane="2" tl="intersection_1_3" linkIndex="11" dir="r" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_2" fromLane="1" toLane="0" tl="intersection_1_3" linkIndex="12" dir="s" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_2" fromLane="1" toLane="1" tl="intersection_1_3" linkIndex="13" dir="s" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_2" fromLane="1" toLane="2" tl="intersection_1_3" linkIndex="14" dir="s" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_3" fromLane="2" toLane="0" tl="intersection_1_3" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_3" fromLane="2" toLane="1" tl="intersection_1_3" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_2_3_2" to="road_1_3_3" fromLane="2" toLane="2" tl="intersection_1_3" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_2" fromLane="0" toLane="0" tl="intersection_2_2" linkIndex="9" dir="r" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_2" fromLane="0" toLane="1" tl="intersection_2_2" linkIndex="10" dir="r" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_2" fromLane="0" toLane="2" tl="intersection_2_2" linkIndex="11" dir="r" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_3" fromLane="1" toLane="0" tl="intersection_2_2" linkIndex="12" dir="s" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_3" fromLane="1" toLane="1" tl="intersection_2_2" linkIndex="13" dir="s" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_3" fromLane="1" toLane="2" tl="intersection_2_2" linkIndex="14" dir="s" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_0" fromLane="2" toLane="0" tl="intersection_2_2" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_0" fromLane="2" toLane="1" tl="intersection_2_2" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_2_3_3" to="road_2_2_0" fromLane="2" toLane="2" tl="intersection_2_2" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_2_4_3" to="road_2_3_2" fromLane="0" toLane="0" tl="intersection_2_3" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_2" fromLane="0" toLane="1" tl="intersection_2_3" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_2" fromLane="0" toLane="2" tl="intersection_2_3" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_3" fromLane="1" toLane="0" tl="intersection_2_3" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_3" fromLane="1" toLane="1" tl="intersection_2_3" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_3" fromLane="1" toLane="2" tl="intersection_2_3" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_2_4_3" to="road_2_3_0" fromLane="2" toLane="0" tl="intersection_2_3" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_2_4_3" to="road_2_3_0" fromLane="2" toLane="1" tl="intersection_2_3" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_2_4_3" to="road_2_3_0" fromLane="2" toLane="2" tl="intersection_2_3" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_0" fromLane="0" toLane="0" tl="intersection_3_1" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_0" fromLane="0" toLane="1" tl="intersection_3_1" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_0" fromLane="0" toLane="2" tl="intersection_3_1" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_1" fromLane="1" toLane="0" tl="intersection_3_1" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_1" fromLane="1" toLane="1" tl="intersection_3_1" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_1" fromLane="1" toLane="2" tl="intersection_3_1" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_2" fromLane="2" toLane="0" tl="intersection_3_1" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_2" fromLane="2" toLane="1" tl="intersection_3_1" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_3_0_1" to="road_3_1_2" fromLane="2" toLane="2" tl="intersection_3_1" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_3_1_0" to="road_4_1_3" fromLane="0" toLane="0" tl="intersection_4_1" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_3" fromLane="0" toLane="1" tl="intersection_4_1" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_3" fromLane="0" toLane="2" tl="intersection_4_1" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_0" fromLane="1" toLane="0" tl="intersection_4_1" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_0" fromLane="1" toLane="1" tl="intersection_4_1" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_0" fromLane="1" toLane="2" tl="intersection_4_1" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_3_1_0" to="road_4_1_1" fromLane="2" toLane="0" tl="intersection_4_1" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_3_1_0" to="road_4_1_1" fromLane="2" toLane="1" tl="intersection_4_1" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_3_1_0" to="road_4_1_1" fromLane="2" toLane="2" tl="intersection_4_1" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_0" fromLane="0" toLane="0" tl="intersection_3_2" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_0" fromLane="0" toLane="1" tl="intersection_3_2" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_0" fromLane="0" toLane="2" tl="intersection_3_2" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_1" fromLane="1" toLane="0" tl="intersection_3_2" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_1" fromLane="1" toLane="1" tl="intersection_3_2" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_1" fromLane="1" toLane="2" tl="intersection_3_2" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_2" fromLane="2" toLane="0" tl="intersection_3_2" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_2" fromLane="2" toLane="1" tl="intersection_3_2" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_3_1_1" to="road_3_2_2" fromLane="2" toLane="2" tl="intersection_3_2" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_3_1_2" to="road_2_1_1" fromLane="0" toLane="0" tl="intersection_2_1" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_1" fromLane="0" toLane="1" tl="intersection_2_1" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_1" fromLane="0" toLane="2" tl="intersection_2_1" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_2" fromLane="1" toLane="0" tl="intersection_2_1" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_2" fromLane="1" toLane="1" tl="intersection_2_1" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_2" fromLane="1" toLane="2" tl="intersection_2_1" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_3_1_2" to="road_2_1_3" fromLane="2" toLane="0" tl="intersection_2_1" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_3_1_2" to="road_2_1_3" fromLane="2" toLane="1" tl="intersection_2_1" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_3_1_2" to="road_2_1_3" fromLane="2" toLane="2" tl="intersection_2_1" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_3_2_0" to="road_4_2_3" fromLane="0" toLane="0" tl="intersection_4_2" linkIndex="27" dir="r" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_3" fromLane="0" toLane="1" tl="intersection_4_2" linkIndex="28" dir="r" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_3" fromLane="0" toLane="2" tl="intersection_4_2" linkIndex="29" dir="r" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_0" fromLane="1" toLane="0" tl="intersection_4_2" linkIndex="30" dir="s" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_0" fromLane="1" toLane="1" tl="intersection_4_2" linkIndex="31" dir="s" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_0" fromLane="1" toLane="2" tl="intersection_4_2" linkIndex="32" dir="s" state="O"/>
+    <connection from="road_3_2_0" to="road_4_2_1" fromLane="2" toLane="0" tl="intersection_4_2" linkIndex="33" dir="l" state="o"/>
+    <connection from="road_3_2_0" to="road_4_2_1" fromLane="2" toLane="1" tl="intersection_4_2" linkIndex="34" dir="l" state="o"/>
+    <connection from="road_3_2_0" to="road_4_2_1" fromLane="2" toLane="2" tl="intersection_4_2" linkIndex="35" dir="l" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_0" fromLane="0" toLane="0" tl="intersection_3_3" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_0" fromLane="0" toLane="1" tl="intersection_3_3" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_0" fromLane="0" toLane="2" tl="intersection_3_3" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_1" fromLane="1" toLane="0" tl="intersection_3_3" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_1" fromLane="1" toLane="1" tl="intersection_3_3" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_1" fromLane="1" toLane="2" tl="intersection_3_3" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_2" fromLane="2" toLane="0" tl="intersection_3_3" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_2" fromLane="2" toLane="1" tl="intersection_3_3" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_3_2_1" to="road_3_3_2" fromLane="2" toLane="2" tl="intersection_3_3" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_3_2_2" to="road_2_2_1" fromLane="0" toLane="0" tl="intersection_2_2" linkIndex="18" dir="r" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_1" fromLane="0" toLane="1" tl="intersection_2_2" linkIndex="19" dir="r" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_1" fromLane="0" toLane="2" tl="intersection_2_2" linkIndex="20" dir="r" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_2" fromLane="1" toLane="0" tl="intersection_2_2" linkIndex="21" dir="s" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_2" fromLane="1" toLane="1" tl="intersection_2_2" linkIndex="22" dir="s" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_2" fromLane="1" toLane="2" tl="intersection_2_2" linkIndex="23" dir="s" state="O"/>
+    <connection from="road_3_2_2" to="road_2_2_3" fromLane="2" toLane="0" tl="intersection_2_2" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_3_2_2" to="road_2_2_3" fromLane="2" toLane="1" tl="intersection_2_2" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_3_2_2" to="road_2_2_3" fromLane="2" toLane="2" tl="intersection_2_2" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_2" fromLane="0" toLane="0" tl="intersection_3_1" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_2" fromLane="0" toLane="1" tl="intersection_3_1" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_2" fromLane="0" toLane="2" tl="intersection_3_1" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_3" fromLane="1" toLane="0" tl="intersection_3_1" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_3" fromLane="1" toLane="1" tl="intersection_3_1" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_3" fromLane="1" toLane="2" tl="intersection_3_1" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_0" fromLane="2" toLane="0" tl="intersection_3_1" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_0" fromLane="2" toLane="1" tl="intersection_3_1" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_3_2_3" to="road_3_1_0" fromLane="2" toLane="2" tl="intersection_3_1" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_3_3_0" to="road_4_3_3" fromLane="0" toLane="0" tl="intersection_4_3" linkIndex="23" dir="r" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_3" fromLane="0" toLane="1" tl="intersection_4_3" linkIndex="24" dir="r" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_3" fromLane="0" toLane="2" tl="intersection_4_3" linkIndex="25" dir="r" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_0" fromLane="1" toLane="0" tl="intersection_4_3" linkIndex="26" dir="s" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_0" fromLane="1" toLane="1" tl="intersection_4_3" linkIndex="27" dir="s" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_0" fromLane="1" toLane="2" tl="intersection_4_3" linkIndex="28" dir="s" state="O"/>
+    <connection from="road_3_3_0" to="road_4_3_1" fromLane="2" toLane="0" tl="intersection_4_3" linkIndex="29" dir="l" state="o"/>
+    <connection from="road_3_3_0" to="road_4_3_1" fromLane="2" toLane="1" tl="intersection_4_3" linkIndex="30" dir="l" state="o"/>
+    <connection from="road_3_3_0" to="road_4_3_1" fromLane="2" toLane="2" tl="intersection_4_3" linkIndex="31" dir="l" state="o"/>
+    <connection from="road_3_3_1" to="road_3_4_3" fromLane="2" toLane="2" dir="t" state="M"/>
+    <connection from="road_3_3_2" to="road_2_3_1" fromLane="0" toLane="0" tl="intersection_2_3" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_1" fromLane="0" toLane="1" tl="intersection_2_3" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_1" fromLane="0" toLane="2" tl="intersection_2_3" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_2" fromLane="1" toLane="0" tl="intersection_2_3" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_2" fromLane="1" toLane="1" tl="intersection_2_3" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_2" fromLane="1" toLane="2" tl="intersection_2_3" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_3" fromLane="2" toLane="0" tl="intersection_2_3" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_3" fromLane="2" toLane="1" tl="intersection_2_3" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_3_3_2" to="road_2_3_3" fromLane="2" toLane="2" tl="intersection_2_3" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_2" fromLane="0" toLane="0" tl="intersection_3_2" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_2" fromLane="0" toLane="1" tl="intersection_3_2" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_2" fromLane="0" toLane="2" tl="intersection_3_2" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_3" fromLane="1" toLane="0" tl="intersection_3_2" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_3" fromLane="1" toLane="1" tl="intersection_3_2" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_3" fromLane="1" toLane="2" tl="intersection_3_2" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_0" fromLane="2" toLane="0" tl="intersection_3_2" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_0" fromLane="2" toLane="1" tl="intersection_3_2" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_3_3_3" to="road_3_2_0" fromLane="2" toLane="2" tl="intersection_3_2" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_2" fromLane="0" toLane="0" tl="intersection_3_3" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_2" fromLane="0" toLane="1" tl="intersection_3_3" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_2" fromLane="0" toLane="2" tl="intersection_3_3" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_3" fromLane="1" toLane="0" tl="intersection_3_3" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_3" fromLane="1" toLane="1" tl="intersection_3_3" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_3" fromLane="1" toLane="2" tl="intersection_3_3" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_0" fromLane="2" toLane="0" tl="intersection_3_3" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_0" fromLane="2" toLane="1" tl="intersection_3_3" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_3_4_3" to="road_3_3_0" fromLane="2" toLane="2" tl="intersection_3_3" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_0" fromLane="0" toLane="0" tl="intersection_4_1" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_0" fromLane="0" toLane="1" tl="intersection_4_1" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_0" fromLane="0" toLane="2" tl="intersection_4_1" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_1" fromLane="1" toLane="0" tl="intersection_4_1" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_1" fromLane="1" toLane="1" tl="intersection_4_1" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_1" fromLane="1" toLane="2" tl="intersection_4_1" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_2" fromLane="2" toLane="0" tl="intersection_4_1" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_2" fromLane="2" toLane="1" tl="intersection_4_1" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_4_0_1" to="road_4_1_2" fromLane="2" toLane="2" tl="intersection_4_1" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_0" fromLane="0" toLane="0" tl="intersection_4_2" linkIndex="18" dir="r" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_0" fromLane="0" toLane="1" tl="intersection_4_2" linkIndex="19" dir="r" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_0" fromLane="0" toLane="2" tl="intersection_4_2" linkIndex="20" dir="r" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_1" fromLane="1" toLane="0" tl="intersection_4_2" linkIndex="21" dir="s" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_1" fromLane="1" toLane="1" tl="intersection_4_2" linkIndex="22" dir="s" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_1" fromLane="1" toLane="2" tl="intersection_4_2" linkIndex="23" dir="s" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_2" fromLane="2" toLane="0" tl="intersection_4_2" linkIndex="24" dir="l" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_2" fromLane="2" toLane="1" tl="intersection_4_2" linkIndex="25" dir="l" state="o"/>
+    <connection from="road_4_1_1" to="road_4_2_2" fromLane="2" toLane="2" tl="intersection_4_2" linkIndex="26" dir="l" state="o"/>
+    <connection from="road_4_1_2" to="road_3_1_1" fromLane="0" toLane="0" tl="intersection_3_1" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_1" fromLane="0" toLane="1" tl="intersection_3_1" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_1" fromLane="0" toLane="2" tl="intersection_3_1" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_2" fromLane="1" toLane="0" tl="intersection_3_1" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_2" fromLane="1" toLane="1" tl="intersection_3_1" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_2" fromLane="1" toLane="2" tl="intersection_3_1" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_4_1_2" to="road_3_1_3" fromLane="2" toLane="0" tl="intersection_3_1" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_4_1_2" to="road_3_1_3" fromLane="2" toLane="1" tl="intersection_3_1" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_4_1_2" to="road_3_1_3" fromLane="2" toLane="2" tl="intersection_3_1" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_4_2_0" to="road_5_2_2" fromLane="2" toLane="2" dir="t" state="M"/>
+    <connection from="road_4_2_1" to="road_4_3_0" fromLane="0" toLane="0" tl="intersection_4_3" linkIndex="14" dir="r" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_0" fromLane="0" toLane="1" tl="intersection_4_3" linkIndex="15" dir="r" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_0" fromLane="0" toLane="2" tl="intersection_4_3" linkIndex="16" dir="r" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_1" fromLane="1" toLane="0" tl="intersection_4_3" linkIndex="17" dir="s" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_1" fromLane="1" toLane="1" tl="intersection_4_3" linkIndex="18" dir="s" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_1" fromLane="1" toLane="2" tl="intersection_4_3" linkIndex="19" dir="s" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_2" fromLane="2" toLane="0" tl="intersection_4_3" linkIndex="20" dir="l" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_2" fromLane="2" toLane="1" tl="intersection_4_3" linkIndex="21" dir="l" state="o"/>
+    <connection from="road_4_2_1" to="road_4_3_2" fromLane="2" toLane="2" tl="intersection_4_3" linkIndex="22" dir="l" state="o"/>
+    <connection from="road_4_2_2" to="road_3_2_1" fromLane="0" toLane="0" tl="intersection_3_2" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_1" fromLane="0" toLane="1" tl="intersection_3_2" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_1" fromLane="0" toLane="2" tl="intersection_3_2" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_2" fromLane="1" toLane="0" tl="intersection_3_2" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_2" fromLane="1" toLane="1" tl="intersection_3_2" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_2" fromLane="1" toLane="2" tl="intersection_3_2" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_4_2_2" to="road_3_2_3" fromLane="2" toLane="0" tl="intersection_3_2" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_4_2_2" to="road_3_2_3" fromLane="2" toLane="1" tl="intersection_3_2" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_4_2_2" to="road_3_2_3" fromLane="2" toLane="2" tl="intersection_3_2" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_2" fromLane="0" toLane="0" tl="intersection_4_1" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_2" fromLane="0" toLane="1" tl="intersection_4_1" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_2" fromLane="0" toLane="2" tl="intersection_4_1" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_3" fromLane="1" toLane="0" tl="intersection_4_1" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_3" fromLane="1" toLane="1" tl="intersection_4_1" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_3" fromLane="1" toLane="2" tl="intersection_4_1" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_0" fromLane="2" toLane="0" tl="intersection_4_1" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_0" fromLane="2" toLane="1" tl="intersection_4_1" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_4_2_3" to="road_4_1_0" fromLane="2" toLane="2" tl="intersection_4_1" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_4_3_0" to="road_5_3_2" fromLane="2" toLane="2" dir="t" state="M"/>
+    <connection from="road_4_3_1" to="road_4_4_3" fromLane="2" toLane="2" dir="t" state="M"/>
+    <connection from="road_4_3_2" to="road_3_3_1" fromLane="0" toLane="0" tl="intersection_3_3" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_1" fromLane="0" toLane="1" tl="intersection_3_3" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_1" fromLane="0" toLane="2" tl="intersection_3_3" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_2" fromLane="1" toLane="0" tl="intersection_3_3" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_2" fromLane="1" toLane="1" tl="intersection_3_3" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_2" fromLane="1" toLane="2" tl="intersection_3_3" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_4_3_2" to="road_3_3_3" fromLane="2" toLane="0" tl="intersection_3_3" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_4_3_2" to="road_3_3_3" fromLane="2" toLane="1" tl="intersection_3_3" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_4_3_2" to="road_3_3_3" fromLane="2" toLane="2" tl="intersection_3_3" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_2" fromLane="0" toLane="0" tl="intersection_4_2" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_2" fromLane="0" toLane="1" tl="intersection_4_2" linkIndex="1" dir="r" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_2" fromLane="0" toLane="2" tl="intersection_4_2" linkIndex="2" dir="r" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_3" fromLane="1" toLane="0" tl="intersection_4_2" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_3" fromLane="1" toLane="1" tl="intersection_4_2" linkIndex="4" dir="s" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_3" fromLane="1" toLane="2" tl="intersection_4_2" linkIndex="5" dir="s" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_0" fromLane="2" toLane="0" tl="intersection_4_2" linkIndex="6" dir="l" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_0" fromLane="2" toLane="1" tl="intersection_4_2" linkIndex="7" dir="l" state="o"/>
+    <connection from="road_4_3_3" to="road_4_2_0" fromLane="2" toLane="2" tl="intersection_4_2" linkIndex="8" dir="l" state="o"/>
+    <connection from="road_4_4_3" to="road_4_3_2" fromLane="0" toLane="0" tl="intersection_4_3" linkIndex="0" dir="r" state="o"/>
+    <connection from="road_4_4_3" to="road_4_3_3" fromLane="0" toLane="0" tl="intersection_4_3" linkIndex="1" dir="s" state="o"/>
+    <connection from="road_4_4_3" to="road_4_3_3" fromLane="1" toLane="1" tl="intersection_4_3" linkIndex="2" dir="s" state="o"/>
+    <connection from="road_4_4_3" to="road_4_3_3" fromLane="2" toLane="2" tl="intersection_4_3" linkIndex="3" dir="s" state="o"/>
+    <connection from="road_4_4_3" to="road_4_3_0" fromLane="2" toLane="2" tl="intersection_4_3" linkIndex="4" dir="l" state="o"/>
+    <connection from="road_5_1_2" to="road_4_1_1" fromLane="0" toLane="0" tl="intersection_4_1" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_1" fromLane="0" toLane="1" tl="intersection_4_1" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_1" fromLane="0" toLane="2" tl="intersection_4_1" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_2" fromLane="1" toLane="0" tl="intersection_4_1" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_2" fromLane="1" toLane="1" tl="intersection_4_1" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_2" fromLane="1" toLane="2" tl="intersection_4_1" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_5_1_2" to="road_4_1_3" fromLane="2" toLane="0" tl="intersection_4_1" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_5_1_2" to="road_4_1_3" fromLane="2" toLane="1" tl="intersection_4_1" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_5_1_2" to="road_4_1_3" fromLane="2" toLane="2" tl="intersection_4_1" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_5_2_2" to="road_4_2_1" fromLane="0" toLane="0" tl="intersection_4_2" linkIndex="9" dir="r" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_1" fromLane="0" toLane="1" tl="intersection_4_2" linkIndex="10" dir="r" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_1" fromLane="0" toLane="2" tl="intersection_4_2" linkIndex="11" dir="r" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_2" fromLane="1" toLane="0" tl="intersection_4_2" linkIndex="12" dir="s" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_2" fromLane="1" toLane="1" tl="intersection_4_2" linkIndex="13" dir="s" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_2" fromLane="1" toLane="2" tl="intersection_4_2" linkIndex="14" dir="s" state="O"/>
+    <connection from="road_5_2_2" to="road_4_2_3" fromLane="2" toLane="0" tl="intersection_4_2" linkIndex="15" dir="l" state="o"/>
+    <connection from="road_5_2_2" to="road_4_2_3" fromLane="2" toLane="1" tl="intersection_4_2" linkIndex="16" dir="l" state="o"/>
+    <connection from="road_5_2_2" to="road_4_2_3" fromLane="2" toLane="2" tl="intersection_4_2" linkIndex="17" dir="l" state="o"/>
+    <connection from="road_5_3_2" to="road_4_3_1" fromLane="0" toLane="0" tl="intersection_4_3" linkIndex="5" dir="r" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_1" fromLane="0" toLane="1" tl="intersection_4_3" linkIndex="6" dir="r" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_1" fromLane="0" toLane="2" tl="intersection_4_3" linkIndex="7" dir="r" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_2" fromLane="1" toLane="0" tl="intersection_4_3" linkIndex="8" dir="s" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_2" fromLane="1" toLane="1" tl="intersection_4_3" linkIndex="9" dir="s" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_2" fromLane="1" toLane="2" tl="intersection_4_3" linkIndex="10" dir="s" state="O"/>
+    <connection from="road_5_3_2" to="road_4_3_3" fromLane="2" toLane="0" tl="intersection_4_3" linkIndex="11" dir="l" state="o"/>
+    <connection from="road_5_3_2" to="road_4_3_3" fromLane="2" toLane="1" tl="intersection_4_3" linkIndex="12" dir="l" state="o"/>
+    <connection from="road_5_3_2" to="road_4_3_3" fromLane="2" toLane="2" tl="intersection_4_3" linkIndex="13" dir="l" state="o"/>
+
+</net>

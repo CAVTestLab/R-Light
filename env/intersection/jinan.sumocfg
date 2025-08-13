@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="jngz.net.xml"/>
+        <route-files value="jinan1.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>
+

@@ -17,7 +17,7 @@ A reinforcement learning framework for network-level traffic signal control with
 - [Performance Demo](#performance-demo)
 - [Contributing](#contributing)
 - [License](#license)
-- [Citation](#citation)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -126,7 +126,7 @@ Our repository includes comprehensive performance demonstrations:
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 ### Development Setup
 1. Fork the repository
@@ -138,18 +138,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Citation
-
-If you use R-Light in your research, please cite:
-
-```bibtex
-@inproceedings{rlight2024,
-  title={R-Light: Towards Robust Multi-agent Reinforcement Learning for Network-level Traffic Signal Control},
-  author={Your Name and Others},
-  booktitle={Conference Name},
-  year={2025}
-}
-```
 
 ## Acknowledgments
 
@@ -159,6 +147,6 @@ If you use R-Light in your research, please cite:
 
 ---
 
-For questions and support, please open an issue or contact [your-email@domain.com](mailto:your-email@domain.com).
+For questions and support, please open an issue or contact [fang6100146@gmail.com](mailto:fang6100146@gmail.com).
 
 

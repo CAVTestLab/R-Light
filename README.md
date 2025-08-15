@@ -116,9 +116,6 @@ Our repository includes comprehensive performance demonstrations:
 - **Video Demonstrations**: Real-time metric comparisons between R-Light and FixedTime baseline
 - **Performance Visualizations**: Detailed charts showing improvement across multiple KPIs
 - **Location**: `video/` directory
-
-[![Performance Comparison Video](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge)](video/comparison.mp4)
-
 > 📹 **[Click here to view the performance comparison video](video/comparison.mp4)**
 
 ### Key Performance Improvements

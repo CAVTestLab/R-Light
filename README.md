@@ -117,6 +117,13 @@ Our repository includes comprehensive performance demonstrations:
 - **Performance Visualizations**: Detailed charts showing improvement across multiple KPIs
 - **Location**: `video/` directory
 
+<div align="center">
+  <video width="80%" controls>
+    <source src="video/comparison.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ### Key Performance Improvements
 - Reduced average waiting time
 - Improved traffic throughput

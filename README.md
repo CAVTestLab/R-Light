@@ -117,12 +117,9 @@ Our repository includes comprehensive performance demonstrations:
 - **Performance Visualizations**: Detailed charts showing improvement across multiple KPIs
 - **Location**: `video/` directory
 
-<div align="center">
-  <video width="80%" controls>
-    <source src="video/comparison.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+[![Performance Comparison Video](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge)](video/comparison.mp4)
+
+> 📹 **[Click here to view the performance comparison video](video/comparison.mp4)**
 
 ### Key Performance Improvements
 - Reduced average waiting time

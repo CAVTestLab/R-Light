@@ -1,6 +1,10 @@
 # R-Light
 
 A reinforcement learning framework for network-level traffic signal control with PyTorch and SUMO simulation platform support.
+In this project, the following files will be provided:
+1. We supply the code for two methods (D3QN and GCN) used for traffic signal control.
+2. The layout of Hangzhou and Jinan maps (reconstructed versions) as presented in the paper is included in the “env” folder.
+3. A performance video of the proposed model, R-Light, is provided. The relevant code will be uploaded once the paper is published.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
